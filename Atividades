@@ -1,0 +1,28 @@
+...................................
+//ATV 1
+a = 10
+b = 5
+soma1 = a+b
+print ('A soma do a+b =', soma1)
+soma2 = a-b 
+print (' A soma de a-b =', soma2)
+soma3 = a/b
+print ('A soma de a/b = ', soma3)
+soma4 = a*b
+print ('A soma de a*b =', soma4)
+.........................................................
+//ATV 2
+import math
+
+a = 1
+b = 2
+c = -15
+delta = ((b*b)-4*a*c)
+x1 = (-b + (math.isqrt(delta))) / (2*a)
+x2 = (-b - (math.isqrt(delta))) / (2*a)
+print (x1)
+print (x2)
+print ('O valor de x1 é ', x1 )
+print ('O valor de x2 é', x2)
+.................................................
+// ATV 3
