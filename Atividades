@@ -30,3 +30,9 @@ kilometragem = float((input('Digite a kilometragem: ')))
 autonomia = float((input('Digite a autonomia do veiculo: ')))
 autonomia = (kilometragem*autonomia)
 print ('A autonomia é:', autonomia)
+..............................................................
+//ATV 4
+altura = (float(input('Digite a altura:')))
+peso = (float(input('Digite o peso:')))
+IMC = (peso/(altura*altura))
+print ('O IMC é:', IMC)
