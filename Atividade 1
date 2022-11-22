@@ -1,0 +1,10 @@
+a = 10
+b = 5
+soma1 = a+b
+print ('A soma do a+b =', soma1)
+soma2 = a-b 
+print (' A soma de a-b =', soma2)
+soma3 = a/b
+print ('A soma de a/b = ', soma3)
+soma4 = a*b
+print ('A soma de a*b =', soma4)
