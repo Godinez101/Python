@@ -26,3 +26,7 @@ print ('O valor de x1 é ', x1 )
 print ('O valor de x2 é', x2)
 .................................................
 // ATV 3
+kilometragem = float((input('Digite a kilometragem: ')))
+autonomia = float((input('Digite a autonomia do veiculo: ')))
+autonomia = (kilometragem*autonomia)
+print ('A autonomia é:', autonomia)
