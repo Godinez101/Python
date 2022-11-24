@@ -36,3 +36,11 @@ altura = (float(input('Digite a altura:')))
 peso = (float(input('Digite o peso:')))
 IMC = (peso/(altura*altura))
 print ('O IMC é:', IMC)
+...............................................................
+// ATV 3 LEIA
+  a = int(str("Digite o primeiro numero"))
+  a = int(a)
+  b = int(str("Digite o segundo numero"))
+  b = int(b)
+  total = int(str("O valor total é:"))
+  total = (a+b)
