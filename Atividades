@@ -63,9 +63,50 @@ nota1 = float(input('Digite a primeira nota:'))
 nota1 = int(nota1)
 nota2 = float(input('Digite a segunda nota:'))
 nota2 = int(nota2)
-nota3 = float(input('Digite a terceira nota'))
+nota3 = float(input('Digite a terceira nota:'))
 nota3 = int(nota3)
-media = print ('A média de nota é:' (nota1+nota2+nota3)/3)
-
-
-
+media = print ('A média de nota é:')
+media = print ((nota1+nota2+nota3)/3)
+................................................................................
+// ATV 7 LEIA
+codigo = int(input('Digite o código do produto:'))
+codigo = int(codigo)
+quantidade = int(input('Digite a quantindade do produto:'))
+quantidade = int(quantidade)
+valor = int(input('Digite o valor do produto:'))
+valor = int(valor)
+valortotal = print('O total a ser pago é:',quantidade*valor)
+..............................................................................
+// ATV Quadrado
+lado = int(input('Digite o valor do lado:'))
+lado = int(lado)
+perimetro = print('O perimetro do quadrado é:',4*lado )
+area = print('A área do quadrado é:',lado*lado)
+.......................................................................
+// ATV GRAU
+fahrenheit = int(input('Digite a temperatura em fahrenheit:'))
+fahrenheit = int(fahrenheit)
+Celsius = print('O valor da temperatura em celsius é:',(fahrenheit-32)*5/9)
+..........................................................................
+// ATV HIPOTENUSA
+cateto1 = int(input('Digite o valor do cateto 1:'))
+cateto1 = int(cateto1)
+cateto2 = int(input('Digite o valor do cateto 2:'))
+cateto2 = int(cateto2)
+hipotenusa = print('O valor da hipotenusa é', cateto1*cateto1+cateto2*cateto2 )
+...............................................................................
+//ATV Dolar
+cofre = int(input('DIgite o valor que tem no cofre em dolar:'))
+cofre = int(cofre)
+cotacao =float(input('Digite a cotação do dolar no dia:'))
+cotacao = int(cotacao)
+conversor = print('O valor do cofre em real é de:', cofre*cotacao) 
+..............................................................................
+//ATV TEMPO MEDIO
+distancia = int(input('Digite a distancia do destino:'))
+distancia = int(distancia)
+velocidade = int(input('Digite a velocidade do veículo:'))
+velocidade = int(velocidade)
+tempo = print('O tempo médio para chegar ao destino é de:', distancia/velocidade)
+.................................................................................
+//
