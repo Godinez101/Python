@@ -38,9 +38,27 @@ IMC = (peso/(altura*altura))
 print ('O IMC é:', IMC)
 ...............................................................
 // ATV 3 LEIA
-  a = int(str("Digite o primeiro numero"))
-  a = int(a)
-  b = int(str("Digite o segundo numero"))
-  b = int(b)
-  total = int(str("O valor total é:"))
-  total = (a+b)
+a = int(input('Digite o primeiro numero:'))
+a = int(a)
+b = int(input('Digite o segundo numero:'))
+b = int(b)
+total = print('O valor total é:', a*b)
+................................................................
+// ATV 4 LEIA
+valor = float(input('Digite o valor do salgado:'))
+valor = int(valor)
+quantidade = int(input('Digite a quantidade do salgado que você ira levar:'))
+quantidade = int(quantidade)
+total = print('O total a ser pago será:', quantidade*valor)
+.......................................................................
+// ATV 5 LEIA
+distancia = int(input('Digite a distancia pecorrida:'))
+distancia = int(distancia)
+combustivel = int(input('Digite a quantidade de combustivel gasto:'))
+combustivel = int(combustivel)
+autonomia = print('A Autonomia do veículo é', distancia/combustivel)
+..........................................................................
+//
+
+
+
