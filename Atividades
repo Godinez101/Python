@@ -58,7 +58,14 @@ combustivel = int(input('Digite a quantidade de combustivel gasto:'))
 combustivel = int(combustivel)
 autonomia = print('A Autonomia do veículo é', distancia/combustivel)
 ..........................................................................
-//
+// ATV 6 LEIA
+nota1 = float(input('Digite a primeira nota:'))
+nota1 = int(nota1)
+nota2 = float(input('Digite a segunda nota:'))
+nota2 = int(nota2)
+nota3 = float(input('Digite a terceira nota'))
+nota3 = int(nota3)
+media = print ('A média de nota é:' (nota1+nota2+nota3)/3)
 
 
 
