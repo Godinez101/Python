@@ -109,4 +109,21 @@ velocidade = int(input('Digite a velocidade do veículo:'))
 velocidade = int(velocidade)
 tempo = print('O tempo médio para chegar ao destino é de:', distancia/velocidade)
 .................................................................................
-//
+// ATV ESCOLHA
+print ("Opções: \n1- x-tudo \n2-pizza \naçai ")
+op = int(input("Escolha seu lanche:"))
+match op:
+    case 1: 
+        quantidade =  int(input ("Quantos x-tudos você quer:"))
+        valor = 13.00
+        valortotal = print("O valor total será:$", quantidade*valor)
+    case 2 : 
+        quantidade =  int(input ("Quantas pizzas você quer:"))
+        valor = 48.00
+        valortotal = print("O valor total será:$", quantidade*valor)
+    case 3:
+        quantidade =  int(input ("Quantos potes de açaí você quer:"))
+        valor = 15.00
+        valortotal = print("O valor total será:$", quantidade*valor)
+........................................................................................
+
