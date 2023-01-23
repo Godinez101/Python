@@ -126,4 +126,26 @@ match op:
         valor = 15.00
         valortotal = print("O valor total será:$", quantidade*valor)
 ........................................................................................
+#Uso do input e print
+numero = int(input('Informe um número inteiro qualquer: '))
+print(f'O antecessor do número {numero} é {numero - 1}, e o sucessor é {numero + 1}')
+#Uso do if, else e elif
+print('====== Turnos escolares ======')
+print('\nM - Matutino')
+print('V - Vespertino')
+print('N - Noturno\n')
+
+turno = input('Em qual turno você estuda? ')
+
+if turno == 'M' or turno == 'm':
+ print('\nBom dia!')
+elif turno == 'V' or turno == 'v':
+ print('\nBoa tarde!')
+elif turno == 'N' or turno == 'n':
+ print('\nBoa noite!')
+else:
+ print('\nOpção inválida.')
+input()
+..............................................................
+
 
