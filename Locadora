@@ -21,7 +21,7 @@ while True:
             #2015
             case 1:
               diacomcarro = int(input("Quantos dias você quer ficar com o carro?"))
-              valortotal = print ("O valor total será de:", diacomcarro*192.00, "reais")
+              valortotal = print ("O valor total será de:", diacomcarro*192, "reais")
               escolhayoun = str(input("Deseja continuar?") )   
               if escolhayoun[0].lower() == 's':
                 print("Opções de pagamento:")
@@ -45,56 +45,55 @@ while True:
                     print("A Locadora Henrique agradece a preferencia!")
             #2020
             case 2:
-                diacomcarro = int(input("Quantos dias você quer ficar com o carro?"))
-                valortotal = print ("O valor total será de:", diacomcarro*200.00, "reais") 
-                escolhayoun = str(input("Deseja continuar?") )   
-                if escolhayoun <= "Sim":
-                  print("Opções de pagamento:")
-                  print("1-Á vista 2-parcelado")
-                  tipopaga = int(input("Qual o método de pagamento?"))
-                  if tipopaga <= 1:            
-                    print ("Você terá que devolver o veículo daqui a: ", diacomcarro, "dias")
-                    print("A Locadora Henrique agradece a preferencia!")
-                  elif tipopaga <= 2:
-                    print("Opções de parcelamento:")
-                    print("1- 2x 2- 4x")
-                  parcela = int(input("Quantas vezes você quer parcerlar?"))
-                  if parcela <= 1:
+               diacomcarro = int(input("Quantos dias você quer ficar com o carro?"))
+               valortotal = print ("O valor total será de:", diacomcarro*200, "reais")
+               escolhayoun = str(input("Deseja continuar?") )   
+               if escolhayoun[0].lower() == 's':
+                print("Opções de pagamento:")
+                print("1-Á vista 2-parcelado")
+                tipopaga = int(input("Qual o método de pagamento?"))
+                if tipopaga <= 1:            
+                 print ("Você terá que devolver o veículo daqui a: ", diacomcarro, "dias")
+                 print("A Locadora Henrique agradece a preferencia!")
+               else: 
+                continue
+                print("Opções de parcelamento:")
+                print("1- 2x 2- 4x")
+                parcela = int(input("Quantas vezes você quer parcerlar?"))
+                if parcela <= 1:
                     print("O valor do mensal a pagar será de :", valortotal/parcela)
                     print ("Você terá que devolver o veículo daqui a: ", diacomcarro, "dias")
                     print("A Locadora Henrique agradece a preferencia!")
-                  elif parcela <= 2:
+                elif parcela <= 2:
                     print("O valor do mensal a pagar será de :", valortotal/parcela)
                     print ("Você terá que devolver o veículo daqui a: ", diacomcarro, "dias")
                     print("A Locadora Henrique agradece a preferencia!")
-                else:
-                 open (escolha)
             #2023
             case 3:
-                diacomcarro = int(input("Quantos dias você quer ficar com o carro?"))
-                valortotal = print ("O valor total será de:", diacomcarro*215.00, "reais")
-                escolhayoun = str(input("Deseja continuar?") )   
-                if escolhayoun <= "Sim":
-                  print("Opções de pagamento:")
-                  print("1-Á vista 2-parcelado")
-                  tipopaga = int(input("Qual o método de pagamento?"))
-                  if tipopaga <= 1:            
-                    print ("Você terá que devolver o veículo daqui a: ", diacomcarro, "dias")
-                    print("A Locadora Henrique agradece a preferencia!")
-                  elif tipopaga <= 2:
-                    print("Opções de parcelamento:")
-                    print("1- 2x 2- 4x")
-                    parcela = int(input("Quantas vezes você quer parcerlar?"))
-                  if parcela <= 1:
+               diacomcarro = int(input("Quantos dias você quer ficar com o carro?"))
+               valortotal = print ("O valor total será de:", diacomcarro*215, "reais")
+               escolhayoun = str(input("Deseja continuar?") )   
+               if escolhayoun[0].lower() == 's':
+                print("Opções de pagamento:")
+                print("1-Á vista 2-parcelado")
+                tipopaga = int(input("Qual o método de pagamento?"))
+                if tipopaga <= 1:            
+                 print ("Você terá que devolver o veículo daqui a: ", diacomcarro, "dias")
+                 print("A Locadora Henrique agradece a preferencia!")
+               else: 
+                continue
+                print("Opções de parcelamento:")
+                print("1- 2x 2- 4x")
+                parcela = int(input("Quantas vezes você quer parcerlar?"))
+                if parcela <= 1:
                     print("O valor do mensal a pagar será de :", valortotal/parcela)
                     print ("Você terá que devolver o veículo daqui a: ", diacomcarro, "dias")
                     print("A Locadora Henrique agradece a preferencia!")
-                  elif parcela <= 2:
+                elif parcela <= 2:
                     print("O valor do mensal a pagar será de :", valortotal/parcela)
                     print ("Você terá que devolver o veículo daqui a: ", diacomcarro, "dias")
                     print("A Locadora Henrique agradece a preferencia!")
-                else:
-                 open (escolha)
+                
         #HATCH         
         case 2:
           print("Ano de fabricação do veículo: ")
@@ -103,78 +102,79 @@ while True:
           match anocarro:
             #2015
             case 1:
-              diacomcarro = int(input("Quantos dias você quer ficar com o carro?"))
-              valortotal = print ("O valor total será de:", diacomcarro*57.00, "reais")
-              escolhayoun = str(input("Deseja continuar?") )   
-              if escolhayoun <= "Sim":
+               diacomcarro = int(input("Quantos dias você quer ficar com o carro?"))
+               valortotal = print ("O valor total será de:", diacomcarro*57, "reais")
+               escolhayoun = str(input("Deseja continuar?") )   
+               if escolhayoun[0].lower() == 's':
                 print("Opções de pagamento:")
                 print("1-Á vista 2-parcelado")
-              tipopaga = int(input("Qual o método de pagamento?"))
-              if tipopaga <= 1:            
-                print ("Você terá que devolver o veículo daqui a: ", diacomcarro, "dias")
-                print("A Locadora Henrique agradece a preferencia!")
-              elif tipopaga <= 2:
+                tipopaga = int(input("Qual o método de pagamento?"))
+                if tipopaga <= 1:            
+                 print ("Você terá que devolver o veículo daqui a: ", diacomcarro, "dias")
+                 print("A Locadora Henrique agradece a preferencia!")
+               else: 
+                continue
                 print("Opções de parcelamento:")
                 print("1- 2x 2- 4x")
-              parcela = int(input("Quantas vezes você quer parcerlar?"))
-              if parcela <= 1:
-                print("O valor do mensal a pagar será de :", valortotal/parcela)
-                print ("Você terá que devolver o veículo daqui a: ", diacomcarro, "dias")
-                print("A Locadora Henrique agradece a preferencia!")
-              elif parcela <= 2:
-                print("O valor do mensal a pagar será de :", valortotal/parcela)
-                print ("Você terá que devolver o veículo daqui a: ", diacomcarro, "dias")
-                print("A Locadora Henrique agradece a preferencia!")
-              else:
-               open(escolha)
+                parcela = int(input("Quantas vezes você quer parcerlar?"))
+                if parcela <= 1:
+                    print("O valor do mensal a pagar será de :", valortotal/parcela)
+                    print ("Você terá que devolver o veículo daqui a: ", diacomcarro, "dias")
+                    print("A Locadora Henrique agradece a preferencia!")
+                elif parcela <= 2:
+                    print("O valor do mensal a pagar será de :", valortotal/parcela)
+                    print ("Você terá que devolver o veículo daqui a: ", diacomcarro, "dias")
+                    print("A Locadora Henrique agradece a preferencia!")
             #2020
             case 2:
-              diacomcarro = int(input("Quantos dias você quer ficar com o carro?"))
-              valortotal = print ("O valor total será de:", diacomcarro*68.00, "reais")
-              escolhayoun = str(input("Deseja continuar?") )   
-              if escolhayoun <= "Sim":
+               diacomcarro = int(input("Quantos dias você quer ficar com o carro?"))
+               valortotal = print ("O valor total será de:", diacomcarro*68, "reais")
+               escolhayoun = str(input("Deseja continuar?") )   
+               if escolhayoun[0].lower() == 's':
                 print("Opções de pagamento:")
                 print("1-Á vista 2-parcelado")
-              tipopaga = int(input("Qual o método de pagamento?"))
-              if tipopaga <= 1:            
-                print ("Você terá que devolver o veículo daqui a: ", diacomcarro, "dias")
-                print("A Locadora Henrique agradece a preferencia!")
-              elif tipopaga <= 2:
-                  print("Opções de parcelamento:")
-                  print("1- 2x 2- 4x")
-              parcela = int(input("Quantas vezes você quer parcerlar?"))
-              if parcela <= 1:
-                print("O valor do mensal a pagar será de :", valortotal/parcela)
-                print ("Você terá que devolver o veículo daqui a: ", diacomcarro, "dias")
-                print("A Locadora Henrique agradece a preferencia!")
-              elif parcela <= 2:
-                print("O valor do mensal a pagar será de :", valortotal/parcela)
-                print ("Você terá que devolver o veículo daqui a: ", diacomcarro, "dias")
-                print("A Locadora Henrique agradece a preferencia!")
-            #2023
-            case 3:
-              diacomcarro = int(input("Quantos dias você quer ficar com o carro?"))
-              valortotal = print ("O valor total será de:", diacomcarro*80.00, "reais")
-              escolhayoun = str(input("Deseja continuar?") )   
-              if escolhayoun <= "Sim":
-                print("Opções de pagamento:")
-                print("1-Á vista 2-parcelado")
-              tipopaga = int(input("Qual o método de pagamento?"))
-              if tipopaga <= 1:            
-                print ("Você terá que devolver o veículo daqui a: ", diacomcarro, "dias")
-                print("A Locadora Henrique agradece a preferencia!")
-              elif tipopaga <= 2:
+                tipopaga = int(input("Qual o método de pagamento?"))
+                if tipopaga <= 1:            
+                 print ("Você terá que devolver o veículo daqui a: ", diacomcarro, "dias")
+                 print("A Locadora Henrique agradece a preferencia!")
+               else: 
+                continue
                 print("Opções de parcelamento:")
                 print("1- 2x 2- 4x")
-              parcela = int(input("Quantas vezes você quer parcerlar?"))
-              if parcela <= 1:
-                print("O valor do mensal a pagar será de :", valortotal/parcela)
-                print ("Você terá que devolver o veículo daqui a: ", diacomcarro, "dias")
-                print("A Locadora Henrique agradece a preferencia!")
-              elif parcela <= 2:
-                print("O valor do mensal a pagar será de :", valortotal/parcela)
-                print ("Você terá que devolver o veículo daqui a: ", diacomcarro, "dias")
-                print("A Locadora Henrique agradece a preferencia!")
+                parcela = int(input("Quantas vezes você quer parcerlar?"))
+                if parcela <= 1:
+                    print("O valor do mensal a pagar será de :", valortotal/parcela)
+                    print ("Você terá que devolver o veículo daqui a: ", diacomcarro, "dias")
+                    print("A Locadora Henrique agradece a preferencia!")
+                elif parcela <= 2:
+                    print("O valor do mensal a pagar será de :", valortotal/parcela)
+                    print ("Você terá que devolver o veículo daqui a: ", diacomcarro, "dias")
+                    print("A Locadora Henrique agradece a preferencia!")
+            #2023
+            case 3:
+               diacomcarro = int(input("Quantos dias você quer ficar com o carro?"))
+               valortotal = print ("O valor total será de:", diacomcarro*80, "reais")
+               escolhayoun = str(input("Deseja continuar?") )   
+               if escolhayoun[0].lower() == 's':
+                print("Opções de pagamento:")
+                print("1-Á vista 2-parcelado")
+                tipopaga = int(input("Qual o método de pagamento?"))
+                if tipopaga <= 1:            
+                 print ("Você terá que devolver o veículo daqui a: ", diacomcarro, "dias")
+                 print("A Locadora Henrique agradece a preferencia!")
+               else: 
+                continue
+                print("Opções de parcelamento:")
+                print("1- 2x 2- 4x")
+                parcela = int(input("Quantas vezes você quer parcerlar?"))
+                if parcela <= 1:
+                    print("O valor do mensal a pagar será de :", valortotal/parcela)
+                    print ("Você terá que devolver o veículo daqui a: ", diacomcarro, "dias")
+                    print("A Locadora Henrique agradece a preferencia!")
+                elif parcela <= 2:
+                    print("O valor do mensal a pagar será de :", valortotal/parcela)
+                    print ("Você terá que devolver o veículo daqui a: ", diacomcarro, "dias")
+                    print("A Locadora Henrique agradece a preferencia!")
         #PICAPE         
         case 3:
           print("Ano de fabricação do veículo: ")
@@ -183,82 +183,79 @@ while True:
           match anocarro:
             #2015
             case 1:
-              diacomcarro = int(input("Quantos dias você quer ficar com o carro?"))
-              valortotal = print ("O valor total será de:", diacomcarro*210.00, "reais")
-              escolhayoun = str(input("Deseja continuar?") )   
-              if escolhayoun <= "Sim":
+               diacomcarro = int(input("Quantos dias você quer ficar com o carro?"))
+               valortotal = print ("O valor total será de:", diacomcarro*210, "reais")
+               escolhayoun = str(input("Deseja continuar?") )   
+               if escolhayoun[0].lower() == 's':
                 print("Opções de pagamento:")
                 print("1-Á vista 2-parcelado")
-              tipopaga = int(input("Qual o método de pagamento?"))
-              if tipopaga <= 1:            
-                print ("Você terá que devolver o veículo daqui a: ", diacomcarro, "dias")
-                print("A Locadora Henrique agradece a preferencia!")
-              elif tipopaga <= 2:
+                tipopaga = int(input("Qual o método de pagamento?"))
+                if tipopaga <= 1:            
+                 print ("Você terá que devolver o veículo daqui a: ", diacomcarro, "dias")
+                 print("A Locadora Henrique agradece a preferencia!")
+               else: 
+                continue
                 print("Opções de parcelamento:")
                 print("1- 2x 2- 4x")
-              parcela = int(input("Quantas vezes você quer parcerlar?"))
-              if parcela <= 1:
-                print("O valor do mensal a pagar será de :", valortotal/parcela)
-                print ("Você terá que devolver o veículo daqui a: ", diacomcarro, "dias")
-                print("A Locadora Henrique agradece a preferencia!")
-              elif parcela <= 2:
-                print("O valor do mensal a pagar será de :", valortotal/parcela)
-                print ("Você terá que devolver o veículo daqui a: ", diacomcarro, "dias")
-                print("A Locadora Henrique agradece a preferencia!")
-              else:
-               open(escolha)
+                parcela = int(input("Quantas vezes você quer parcerlar?"))
+                if parcela <= 1:
+                    print("O valor do mensal a pagar será de :", valortotal/parcela)
+                    print ("Você terá que devolver o veículo daqui a: ", diacomcarro, "dias")
+                    print("A Locadora Henrique agradece a preferencia!")
+                elif parcela <= 2:
+                    print("O valor do mensal a pagar será de :", valortotal/parcela)
+                    print ("Você terá que devolver o veículo daqui a: ", diacomcarro, "dias")
+                    print("A Locadora Henrique agradece a preferencia!")
             #2020
             case 2:
-              diacomcarro = int(input("Quantos dias você quer ficar com o carro?"))
-              valortotal = print ("O valor total será de:", diacomcarro*220.00, "reais")
-              escolhayoun = str(input("Deseja continuar?") )   
-              if escolhayoun <= "Sim":
+               diacomcarro = int(input("Quantos dias você quer ficar com o carro?"))
+               valortotal = print ("O valor total será de:", diacomcarro*220, "reais")
+               escolhayoun = str(input("Deseja continuar?") )   
+               if escolhayoun[0].lower() == 's':
                 print("Opções de pagamento:")
                 print("1-Á vista 2-parcelado")
-              tipopaga = int(input("Qual o método de pagamento?"))
-              if tipopaga <= 1:            
-                print ("Você terá que devolver o veículo daqui a: ", diacomcarro, "dias")
-                print("A Locadora Henrique agradece a preferencia!")
-              elif tipopaga <= 2:
+                tipopaga = int(input("Qual o método de pagamento?"))
+                if tipopaga <= 1:            
+                 print ("Você terá que devolver o veículo daqui a: ", diacomcarro, "dias")
+                 print("A Locadora Henrique agradece a preferencia!")
+               else: 
+                continue
                 print("Opções de parcelamento:")
                 print("1- 2x 2- 4x")
-              parcela = int(input("Quantas vezes você quer parcerlar?"))
-              if parcela <= 1:
-                print("O valor do mensal a pagar será de :", valortotal/parcela)
-                print ("Você terá que devolver o veículo daqui a: ", diacomcarro, "dias")
-                print("A Locadora Henrique agradece a preferencia!")
-              elif parcela <= 2:
-                print("O valor do mensal a pagar será de :", valortotal/parcela)
-                print ("Você terá que devolver o veículo daqui a: ", diacomcarro, "dias")
-                print("A Locadora Henrique agradece a preferencia!")
-              else:
-               open(escolha)
+                parcela = int(input("Quantas vezes você quer parcerlar?"))
+                if parcela <= 1:
+                    print("O valor do mensal a pagar será de :", valortotal/parcela)
+                    print ("Você terá que devolver o veículo daqui a: ", diacomcarro, "dias")
+                    print("A Locadora Henrique agradece a preferencia!")
+                elif parcela <= 2:
+                    print("O valor do mensal a pagar será de :", valortotal/parcela)
+                    print ("Você terá que devolver o veículo daqui a: ", diacomcarro, "dias")
+                    print("A Locadora Henrique agradece a preferencia!")
             #2023     
             case 3:
-              diacomcarro = int(input("Quantos dias você quer ficar com o carro?"))
-              valortotal = print ("O valor total será de:", diacomcarro*230.00, "reais")
-              escolhayoun = str(input("Deseja continuar?") )   
-              if escolhayoun <= "Sim":
+               diacomcarro = int(input("Quantos dias você quer ficar com o carro?"))
+               valortotal = print ("O valor total será de:", diacomcarro*230, "reais")
+               escolhayoun = str(input("Deseja continuar?") )   
+               if escolhayoun[0].lower() == 's':
                 print("Opções de pagamento:")
                 print("1-Á vista 2-parcelado")
-              tipopaga = int(input("Qual o método de pagamento?"))
-              if tipopaga <= 1:            
-                print ("Você terá que devolver o veículo daqui a: ", diacomcarro, "dias")
-                print("A Locadora Henrique agradece a preferencia!")
-              elif tipopaga <= 2:
+                tipopaga = int(input("Qual o método de pagamento?"))
+                if tipopaga <= 1:            
+                 print ("Você terá que devolver o veículo daqui a: ", diacomcarro, "dias")
+                 print("A Locadora Henrique agradece a preferencia!")
+               else: 
+                continue
                 print("Opções de parcelamento:")
                 print("1- 2x 2- 4x")
-              parcela = int(input("Quantas vezes você quer parcerlar?"))
-              if parcela <= 1:
-                print("O valor do mensal a pagar será de :", valortotal/parcela)
-                print ("Você terá que devolver o veículo daqui a: ", diacomcarro, "dias")
-                print("A Locadora Henrique agradece a preferencia!")
-              elif parcela <= 2:
-                print("O valor do mensal a pagar será de :", valortotal/parcela)
-                print ("Você terá que devolver o veículo daqui a: ", diacomcarro, "dias")
-                print("A Locadora Henrique agradece a preferencia!")
-              else:
-               open(escolha)
+                parcela = int(input("Quantas vezes você quer parcerlar?"))
+                if parcela <= 1:
+                    print("O valor do mensal a pagar será de :", valortotal/parcela)
+                    print ("Você terá que devolver o veículo daqui a: ", diacomcarro, "dias")
+                    print("A Locadora Henrique agradece a preferencia!")
+                elif parcela <= 2:
+                    print("O valor do mensal a pagar será de :", valortotal/parcela)
+                    print ("Você terá que devolver o veículo daqui a: ", diacomcarro, "dias")
+                    print("A Locadora Henrique agradece a preferencia!")
         #ESPORTIVO       
         case 4:
           print("Ano de fabricação do veículo: ")
@@ -267,82 +264,79 @@ while True:
           match anocarro:
             #2015
             case 1:
-              diacomcarro = int(input("Quantos dias você quer ficar com o carro?"))
-              valortotal = print ("O valor total será de:", diacomcarro*250.00, "reais")
-              escolhayoun = str(input("Deseja continuar?") )   
-              if escolhayoun <= "Sim":
+               diacomcarro = int(input("Quantos dias você quer ficar com o carro?"))
+               valortotal = print ("O valor total será de:", diacomcarro*250, "reais")
+               escolhayoun = str(input("Deseja continuar?") )   
+               if escolhayoun[0].lower() == 's':
                 print("Opções de pagamento:")
                 print("1-Á vista 2-parcelado")
-              tipopaga = int(input("Qual o método de pagamento?"))
-              if tipopaga <= 1:            
-                print ("Você terá que devolver o veículo daqui a: ", diacomcarro, "dias")
-                print("A Locadora Henrique agradece a preferencia!")
-              elif tipopaga <= 2:
+                tipopaga = int(input("Qual o método de pagamento?"))
+                if tipopaga <= 1:            
+                 print ("Você terá que devolver o veículo daqui a: ", diacomcarro, "dias")
+                 print("A Locadora Henrique agradece a preferencia!")
+               else: 
+                continue
                 print("Opções de parcelamento:")
                 print("1- 2x 2- 4x")
-              parcela = int(input("Quantas vezes você quer parcerlar?"))
-              if parcela <= 1:
-                print("O valor do mensal a pagar será de :", valortotal/parcela)
-                print ("Você terá que devolver o veículo daqui a: ", diacomcarro, "dias")
-                print("A Locadora Henrique agradece a preferencia!")
-              elif parcela <= 2:
-                print("O valor do mensal a pagar será de :", valortotal/parcela)
-                print ("Você terá que devolver o veículo daqui a: ", diacomcarro, "dias")
-                print("A Locadora Henrique agradece a preferencia!")
-              else:
-               open(escolha)
+                parcela = int(input("Quantas vezes você quer parcerlar?"))
+                if parcela <= 1:
+                    print("O valor do mensal a pagar será de :", valortotal/parcela)
+                    print ("Você terá que devolver o veículo daqui a: ", diacomcarro, "dias")
+                    print("A Locadora Henrique agradece a preferencia!")
+                elif parcela <= 2:
+                    print("O valor do mensal a pagar será de :", valortotal/parcela)
+                    print ("Você terá que devolver o veículo daqui a: ", diacomcarro, "dias")
+                    print("A Locadora Henrique agradece a preferencia!")
             #2020   
             case 2:
-              diacomcarro = int(input("Quantos dias você quer ficar com o carro?"))
-              valortotal = print ("O valor total será de:", diacomcarro*280.00, "reais")
-              escolhayoun = str(input("Deseja continuar?") )   
-              if escolhayoun <= "Sim":
+               diacomcarro = int(input("Quantos dias você quer ficar com o carro?"))
+               valortotal = print ("O valor total será de:", diacomcarro*280, "reais")
+               escolhayoun = str(input("Deseja continuar?") )   
+               if escolhayoun[0].lower() == 's':
                 print("Opções de pagamento:")
                 print("1-Á vista 2-parcelado")
-              tipopaga = int(input("Qual o método de pagamento?"))
-              if tipopaga <= 1:            
-                print ("Você terá que devolver o veículo daqui a: ", diacomcarro, "dias")
-                print("A Locadora Henrique agradece a preferencia!")
-              elif tipopaga <= 2:
+                tipopaga = int(input("Qual o método de pagamento?"))
+                if tipopaga <= 1:            
+                 print ("Você terá que devolver o veículo daqui a: ", diacomcarro, "dias")
+                 print("A Locadora Henrique agradece a preferencia!")
+               else: 
+                continue
                 print("Opções de parcelamento:")
                 print("1- 2x 2- 4x")
-              parcela = int(input("Quantas vezes você quer parcerlar?"))
-              if parcela <= 1:
-                print("O valor do mensal a pagar será de :", valortotal/parcela)
-                print ("Você terá que devolver o veículo daqui a: ", diacomcarro, "dias")
-                print("A Locadora Henrique agradece a preferencia!")
-              elif parcela <= 2:
-                print("O valor do mensal a pagar será de :", valortotal/parcela)
-                print ("Você terá que devolver o veículo daqui a: ", diacomcarro, "dias")
-                print("A Locadora Henrique agradece a preferencia!")
-              else:
-               open(escolha)  
+                parcela = int(input("Quantas vezes você quer parcerlar?"))
+                if parcela <= 1:
+                    print("O valor do mensal a pagar será de :", valortotal/parcela)
+                    print ("Você terá que devolver o veículo daqui a: ", diacomcarro, "dias")
+                    print("A Locadora Henrique agradece a preferencia!")
+                elif parcela <= 2:
+                    print("O valor do mensal a pagar será de :", valortotal/parcela)
+                    print ("Você terá que devolver o veículo daqui a: ", diacomcarro, "dias")
+                    print("A Locadora Henrique agradece a preferencia!")
             #2023   
             case 3:
-              diacomcarro = int(input("Quantos dias você quer ficar com o carro?"))
-              valortotal =  print ("O valor total será de:", diacomcarro*300.00, "reais")
-              escolhayoun = str(input("Deseja continuar?") )   
-              if escolhayoun <= "Sim":
+               diacomcarro = int(input("Quantos dias você quer ficar com o carro?"))
+               valortotal = print ("O valor total será de:", diacomcarro*300, "reais")
+               escolhayoun = str(input("Deseja continuar?") )   
+               if escolhayoun[0].lower() == 's':
                 print("Opções de pagamento:")
                 print("1-Á vista 2-parcelado")
-              tipopaga = int(input("Qual o método de pagamento?"))
-              if tipopaga <= 1:            
-                print ("Você terá que devolver o veículo daqui a: ", diacomcarro, "dias")
-                print("A Locadora Henrique agradece a preferencia!")
-              elif tipopaga <= 2:
+                tipopaga = int(input("Qual o método de pagamento?"))
+                if tipopaga <= 1:            
+                 print ("Você terá que devolver o veículo daqui a: ", diacomcarro, "dias")
+                 print("A Locadora Henrique agradece a preferencia!")
+               else: 
+                continue
                 print("Opções de parcelamento:")
                 print("1- 2x 2- 4x")
-              parcela = int(input("Quantas vezes você quer parcerlar?"))
-              if parcela <= 1:
-                print("O valor do mensal a pagar será de :", valortotal/parcela)
-                print ("Você terá que devolver o veículo daqui a: ", diacomcarro, "dias")
-                print("A Locadora Henrique agradece a preferencia!")
-              elif parcela <= 2:
-                print("O valor do mensal a pagar será de :", valortotal/parcela)
-                print ("Você terá que devolver o veículo daqui a: ", diacomcarro, "dias")
-                print("A Locadora Henrique agradece a preferencia!")
-              else:
-               open(escolha)
+                parcela = int(input("Quantas vezes você quer parcerlar?"))
+                if parcela <= 1:
+                    print("O valor do mensal a pagar será de :", valortotal/parcela)
+                    print ("Você terá que devolver o veículo daqui a: ", diacomcarro, "dias")
+                    print("A Locadora Henrique agradece a preferencia!")
+                elif parcela <= 2:
+                    print("O valor do mensal a pagar será de :", valortotal/parcela)
+                    print ("Você terá que devolver o veículo daqui a: ", diacomcarro, "dias")
+                    print("A Locadora Henrique agradece a preferencia!")
     #MOTO           
     case 2:
       print("Opções de moto:")
@@ -358,73 +352,76 @@ while True:
           match anomoto:
             #2015
             case 1:
-              diacommoto = int(input("Quantos dias você quer ficar com a moto?"))
-              valortotal = print ("O valor total será de:", diacommoto*20, "reais")
-              escolhayoun = str(input("Deseja continuar?") )   
-              if escolhayoun <= "Sim":
-                print("Opções de pagamento:")
-                print("1-Á vista 2-parcelado")
-                tipopaga = int(input("Qual o método de pagamento?"))
-                if tipopaga <= 1:            
-                  print ("Você terá que devolver o veículo daqui a: ", diacommoto, "dias")
-                  print("A Locadora Henrique agradece a preferencia!")
-                elif tipopaga <= 2:
-                  print("Opções de parcelamento:")
-                  print("1- 2x 2- 4x")
-                  parcela = int(input("Quantas vezes você quer parcerlar?"))
-                  if parcela <= 1:
-                    print("O valor do mensal a pagar será de :", valortotal/parcela)
-                    print ("Você terá que devolver o veículo daqui a: ", diacommoto, "dias")
-                    print("A Locadora Henrique agradece a preferencia!")
-                  elif parcela <= 2:
-                    print("O valor do mensal a pagar será de :", valortotal/parcela)
-                    print ("Você terá que devolver o veículo daqui a: ", diacommoto, "dias")
-                    print("A Locadora Henrique agradece a preferencia!")
-            #2020        
-            case 2:
-              diacommoto = int(input("Quantos dias você quer ficar com a moto?"))
-              valortotal = print ("O valor total será de:", diacommoto*35, "reais")
-              escolhayoun = str(input("Deseja continuar?") )   
-              if escolhayoun <= "Sim":
+               diacommoto = int(input("Quantos dias você quer ficar com a moto?"))
+               valortotal = print ("O valor total será de:", diacommoto*20, "reais")
+               escolhayoun = str(input("Deseja continuar?") )   
+               if escolhayoun[0].lower() == 's':
                 print("Opções de pagamento:")
                 print("1-Á vista 2-parcelado")
                 tipopaga = int(input("Qual o método de pagamento?"))
                 if tipopaga <= 1:            
                  print ("Você terá que devolver o veículo daqui a: ", diacommoto, "dias")
                  print("A Locadora Henrique agradece a preferencia!")
-                elif tipopaga <= 2:
-                  print("Opções de parcelamento:")
-                  print("1- 2x 2- 4x")
-                  parcela = int(input("Quantas vezes você quer parcerlar?"))
-                  if parcela <= 1:
+               else: 
+                continue
+                print("Opções de parcelamento:")
+                print("1- 2x 2- 4x")
+                parcela = int(input("Quantas vezes você quer parcerlar?"))
+                if parcela <= 1:
                     print("O valor do mensal a pagar será de :", valortotal/parcela)
                     print ("Você terá que devolver o veículo daqui a: ", diacommoto, "dias")
                     print("A Locadora Henrique agradece a preferencia!")
-                  elif parcela <= 2:
+                elif parcela <= 2:
+                    print("O valor do mensal a pagar será de :", valortotal/parcela)
+                    print ("Você terá que devolver o veículo daqui a: ", diacommoto, "dias")
+                    print("A Locadora Henrique agradece a preferencia!")
+            #2020        
+            case 2:
+               diacommoto = int(input("Quantos dias você quer ficar com a moto?"))
+               valortotal = print ("O valor total será de:", diacommoto*35, "reais")
+               escolhayoun = str(input("Deseja continuar?") )   
+               if escolhayoun[0].lower() == 's':
+                print("Opções de pagamento:")
+                print("1-Á vista 2-parcelado")
+                tipopaga = int(input("Qual o método de pagamento?"))
+                if tipopaga <= 1:            
+                 print ("Você terá que devolver o veículo daqui a: ", diacommoto, "dias")
+                 print("A Locadora Henrique agradece a preferencia!")
+               else: 
+                continue
+                print("Opções de parcelamento:")
+                print("1- 2x 2- 4x")
+                parcela = int(input("Quantas vezes você quer parcerlar?"))
+                if parcela <= 1:
+                    print("O valor do mensal a pagar será de :", valortotal/parcela)
+                    print ("Você terá que devolver o veículo daqui a: ", diacommoto, "dias")
+                    print("A Locadora Henrique agradece a preferencia!")
+                elif parcela <= 2:
                     print("O valor do mensal a pagar será de :", valortotal/parcela)
                     print ("Você terá que devolver o veículo daqui a: ", diacommoto, "dias")
                     print("A Locadora Henrique agradece a preferencia!")
             #2023        
             case 3:
-              diacommoto = int(input("Quantos dias você quer ficar com a moto?"))
-              valortotal = print ("O valor total será de:", diacommoto*50, "reais")
-              escolhayoun = str(input("Deseja continuar?") )   
-              if escolhayoun <= "Sim":
+               diacommoto = int(input("Quantos dias você quer ficar com a moto?"))
+               valortotal = print ("O valor total será de:", diacommoto*50, "reais")
+               escolhayoun = str(input("Deseja continuar?") )   
+               if escolhayoun[0].lower() == 's':
                 print("Opções de pagamento:")
                 print("1-Á vista 2-parcelado")
                 tipopaga = int(input("Qual o método de pagamento?"))
                 if tipopaga <= 1:            
-                  print ("Você terá que devolver o veículo daqui a: ", diacommoto, "dias")
-                  print("A Locadora Henrique agradece a preferencia!")
-                elif tipopaga <= 2:
-                  print("Opções de parcelamento:")
-                  print("1- 2x 2- 4x")
-                  parcela = int(input("Quantas vezes você quer parcerlar?"))
-                  if parcela <= 1:
+                 print ("Você terá que devolver o veículo daqui a: ", diacommoto, "dias")
+                 print("A Locadora Henrique agradece a preferencia!")
+               else: 
+                continue
+                print("Opções de parcelamento:")
+                print("1- 2x 2- 4x")
+                parcela = int(input("Quantas vezes você quer parcerlar?"))
+                if parcela <= 1:
                     print("O valor do mensal a pagar será de :", valortotal/parcela)
                     print ("Você terá que devolver o veículo daqui a: ", diacommoto, "dias")
                     print("A Locadora Henrique agradece a preferencia!")
-                  elif parcela <= 2:
+                elif parcela <= 2:
                     print("O valor do mensal a pagar será de :", valortotal/parcela)
                     print ("Você terá que devolver o veículo daqui a: ", diacommoto, "dias")
                     print("A Locadora Henrique agradece a preferencia!")
@@ -436,73 +433,76 @@ while True:
           match anomoto:
             #2015
             case 1:
-              diacommoto = int(input("Quantos dias você quer ficar com a moto?"))
-              valortotal = print ("O valor total será de:", diacommoto*100, "reais")
-              escolhayoun = str(input("Deseja continuar?") )   
-              if escolhayoun <= "Sim":
+               diacommoto = int(input("Quantos dias você quer ficar com a moto?"))
+               valortotal = print ("O valor total será de:", diacommoto*100, "reais")
+               escolhayoun = str(input("Deseja continuar?") )   
+               if escolhayoun[0].lower() == 's':
                 print("Opções de pagamento:")
                 print("1-Á vista 2-parcelado")
                 tipopaga = int(input("Qual o método de pagamento?"))
                 if tipopaga <= 1:            
-                  print ("Você terá que devolver o veículo daqui a: ", diacommoto, "dias")
-                  print("A Locadora Henrique agradece a preferencia!")
-                elif tipopaga <= 2:
-                  print("Opções de parcelamento:")
-                  print("1- 2x 2- 4x")
-                  parcela = int(input("Quantas vezes você quer parcerlar?"))
-                  if parcela <= 1:
+                 print ("Você terá que devolver o veículo daqui a: ", diacommoto, "dias")
+                 print("A Locadora Henrique agradece a preferencia!")
+               else: 
+                continue
+                print("Opções de parcelamento:")
+                print("1- 2x 2- 4x")
+                parcela = int(input("Quantas vezes você quer parcerlar?"))
+                if parcela <= 1:
                     print("O valor do mensal a pagar será de :", valortotal/parcela)
                     print ("Você terá que devolver o veículo daqui a: ", diacommoto, "dias")
                     print("A Locadora Henrique agradece a preferencia!")
-                  elif parcela <= 2:
+                elif parcela <= 2:
                     print("O valor do mensal a pagar será de :", valortotal/parcela)
                     print ("Você terá que devolver o veículo daqui a: ", diacommoto, "dias")
                     print("A Locadora Henrique agradece a preferencia!")
             #2020        
             case 2:
-              diacommoto = int(input("Quantos dias você quer ficar com a moto?"))
-              valortotal = print ("O valor total será de:", diacommoto*150, "reais")
-              escolhayoun = str(input("Deseja continuar?") )   
-              if escolhayoun <= "Sim":
+               diacommoto = int(input("Quantos dias você quer ficar com a moto?"))
+               valortotal = print ("O valor total será de:", diacommoto*150, "reais")
+               escolhayoun = str(input("Deseja continuar?") )   
+               if escolhayoun[0].lower() == 's':
                 print("Opções de pagamento:")
                 print("1-Á vista 2-parcelado")
                 tipopaga = int(input("Qual o método de pagamento?"))
                 if tipopaga <= 1:            
-                  print ("Você terá que devolver o veículo daqui a: ", diacommoto, "dias")
-                  print("A Locadora Henrique agradece a preferencia!")
-                elif tipopaga <= 2:
-                  print("Opções de parcelamento:")
-                  print("1- 2x 2- 4x")
-                  parcela = int(input("Quantas vezes você quer parcerlar?"))
-                  if parcela <= 1:
+                 print ("Você terá que devolver o veículo daqui a: ", diacommoto, "dias")
+                 print("A Locadora Henrique agradece a preferencia!")
+               else: 
+                continue
+                print("Opções de parcelamento:")
+                print("1- 2x 2- 4x")
+                parcela = int(input("Quantas vezes você quer parcerlar?"))
+                if parcela <= 1:
                     print("O valor do mensal a pagar será de :", valortotal/parcela)
                     print ("Você terá que devolver o veículo daqui a: ", diacommoto, "dias")
                     print("A Locadora Henrique agradece a preferencia!")
-                  elif parcela <= 2:
+                elif parcela <= 2:
                     print("O valor do mensal a pagar será de :", valortotal/parcela)
                     print ("Você terá que devolver o veículo daqui a: ", diacommoto, "dias")
                     print("A Locadora Henrique agradece a preferencia!")
             #2023        
             case 3:
-              diacommoto = int(input("Quantos dias você quer ficar com a moto?"))
-              valortotal = print ("O valor total será de:", diacommoto*200, "reais")
-              escolhayoun = str(input("Deseja continuar?") )   
-              if escolhayoun <= "Sim":
+               diacommoto = int(input("Quantos dias você quer ficar com a moto?"))
+               valortotal = print ("O valor total será de:", diacommoto*200, "reais")
+               escolhayoun = str(input("Deseja continuar?") )   
+               if escolhayoun[0].lower() == 's':
                 print("Opções de pagamento:")
                 print("1-Á vista 2-parcelado")
                 tipopaga = int(input("Qual o método de pagamento?"))
                 if tipopaga <= 1:            
-                  print ("Você terá que devolver o veículo daqui a: ", diacommoto, "dias")
-                  print("A Locadora Henrique agradece a preferencia!")
-                elif tipopaga <= 2:
-                  print("Opções de parcelamento:")
-                  print("1- 2x 2- 4x")
-                  parcela = int(input("Quantas vezes você quer parcerlar?"))
-                  if parcela <= 1:
+                 print ("Você terá que devolver o veículo daqui a: ", diacommoto, "dias")
+                 print("A Locadora Henrique agradece a preferencia!")
+               else: 
+                continue
+                print("Opções de parcelamento:")
+                print("1- 2x 2- 4x")
+                parcela = int(input("Quantas vezes você quer parcerlar?"))
+                if parcela <= 1:
                     print("O valor do mensal a pagar será de :", valortotal/parcela)
                     print ("Você terá que devolver o veículo daqui a: ", diacommoto, "dias")
                     print("A Locadora Henrique agradece a preferencia!")
-                  elif parcela <= 2:
+                elif parcela <= 2:
                     print("O valor do mensal a pagar será de :", valortotal/parcela)
                     print ("Você terá que devolver o veículo daqui a: ", diacommoto, "dias")
                     print("A Locadora Henrique agradece a preferencia!")
@@ -514,73 +514,76 @@ while True:
           match anomoto:
             #2015
             case 1:
-              diacommoto = int(input("Quantos dias você quer ficar com a moto?"))
-              valortotal = print ("O valor total será de:", diacommoto*250, "reais")
-              escolhayoun = str(input("Deseja continuar?") )   
-              if escolhayoun <= "Sim":
+               diacommoto = int(input("Quantos dias você quer ficar com a moto?"))
+               valortotal = print ("O valor total será de:", diacommoto*250, "reais")
+               escolhayoun = str(input("Deseja continuar?") )   
+               if escolhayoun[0].lower() == 's':
                 print("Opções de pagamento:")
                 print("1-Á vista 2-parcelado")
                 tipopaga = int(input("Qual o método de pagamento?"))
                 if tipopaga <= 1:            
-                  print ("Você terá que devolver o veículo daqui a: ", diacommoto, "dias")
-                  print("A Locadora Henrique agradece a preferencia!")
-                elif tipopaga <= 2:
-                  print("Opções de parcelamento:")
-                  print("1- 2x 2- 4x")
-                  parcela = int(input("Quantas vezes você quer parcerlar?"))
-                  if parcela <= 1:
+                 print ("Você terá que devolver o veículo daqui a: ", diacommoto, "dias")
+                 print("A Locadora Henrique agradece a preferencia!")
+               else: 
+                continue
+                print("Opções de parcelamento:")
+                print("1- 2x 2- 4x")
+                parcela = int(input("Quantas vezes você quer parcerlar?"))
+                if parcela <= 1:
                     print("O valor do mensal a pagar será de :", valortotal/parcela)
                     print ("Você terá que devolver o veículo daqui a: ", diacommoto, "dias")
                     print("A Locadora Henrique agradece a preferencia!")
-                  elif parcela <= 2:
+                elif parcela <= 2:
                     print("O valor do mensal a pagar será de :", valortotal/parcela)
                     print ("Você terá que devolver o veículo daqui a: ", diacommoto, "dias")
                     print("A Locadora Henrique agradece a preferencia!")
             #2020        
             case 2:
-              diacommoto = int(input("Quantos dias você quer ficar com a moto?"))
-              valortotal = print ("O valor total será de:", diacommoto*350, "reais")
-              escolhayoun = str(input("Deseja continuar?") )   
-              if escolhayoun <= "Sim":
+               diacommoto = int(input("Quantos dias você quer ficar com a moto?"))
+               valortotal = print ("O valor total será de:", diacommoto*350, "reais")
+               escolhayoun = str(input("Deseja continuar?") )   
+               if escolhayoun[0].lower() == 's':
                 print("Opções de pagamento:")
                 print("1-Á vista 2-parcelado")
                 tipopaga = int(input("Qual o método de pagamento?"))
                 if tipopaga <= 1:            
-                  print ("Você terá que devolver o veículo daqui a: ", diacommoto, "dias")
-                  print("A Locadora Henrique agradece a preferencia!")
-                elif tipopaga <= 2:
-                  print("Opções de parcelamento:")
-                  print("1- 2x 2- 4x")
-                  parcela = int(input("Quantas vezes você quer parcerlar?"))
-                  if parcela <= 1:
+                 print ("Você terá que devolver o veículo daqui a: ", diacommoto, "dias")
+                 print("A Locadora Henrique agradece a preferencia!")
+               else: 
+                continue
+                print("Opções de parcelamento:")
+                print("1- 2x 2- 4x")
+                parcela = int(input("Quantas vezes você quer parcerlar?"))
+                if parcela <= 1:
                     print("O valor do mensal a pagar será de :", valortotal/parcela)
                     print ("Você terá que devolver o veículo daqui a: ", diacommoto, "dias")
                     print("A Locadora Henrique agradece a preferencia!")
-                  elif parcela <= 2:
+                elif parcela <= 2:
                     print("O valor do mensal a pagar será de :", valortotal/parcela)
                     print ("Você terá que devolver o veículo daqui a: ", diacommoto, "dias")
                     print("A Locadora Henrique agradece a preferencia!")
             #2023        
             case 3:
-              diacommoto = int(input("Quantos dias você quer ficar com a moto?"))
-              valortotal = print ("O valor total será de:", diacommoto*450, "reais")
-              escolhayoun = str(input("Deseja continuar?") )   
-              if escolhayoun <= "Sim":
+               diacommoto = int(input("Quantos dias você quer ficar com a moto?"))
+               valortotal = print ("O valor total será de:", diacommoto*450, "reais")
+               escolhayoun = str(input("Deseja continuar?") )   
+               if escolhayoun[0].lower() == 's':
                 print("Opções de pagamento:")
                 print("1-Á vista 2-parcelado")
                 tipopaga = int(input("Qual o método de pagamento?"))
                 if tipopaga <= 1:            
-                  print ("Você terá que devolver o veículo daqui a: ", diacommoto, "dias")
-                  print("A Locadora Henrique agradece a preferencia!")
-                elif tipopaga <= 2:
-                  print("Opções de parcelamento:")
-                  print("1- 2x 2- 4x")
-                  parcela = int(input("Quantas vezes você quer parcerlar?"))
-                  if parcela <= 1:
+                 print ("Você terá que devolver o veículo daqui a: ", diacommoto, "dias")
+                 print("A Locadora Henrique agradece a preferencia!")
+               else: 
+                continue
+                print("Opções de parcelamento:")
+                print("1- 2x 2- 4x")
+                parcela = int(input("Quantas vezes você quer parcerlar?"))
+                if parcela <= 1:
                     print("O valor do mensal a pagar será de :", valortotal/parcela)
                     print ("Você terá que devolver o veículo daqui a: ", diacommoto, "dias")
                     print("A Locadora Henrique agradece a preferencia!")
-                  elif parcela <= 2:
+                elif parcela <= 2:
                     print("O valor do mensal a pagar será de :", valortotal/parcela)
                     print ("Você terá que devolver o veículo daqui a: ", diacommoto, "dias")
                     print("A Locadora Henrique agradece a preferencia!")
@@ -598,76 +601,81 @@ while True:
           match anocaminhao:
             #2015
             case 1:
-              diacomcaminhao = int(input("Quantos dias você quer ficar com o caminhão?"))
-              valortotal = print ("O valor total será de:", diacomcaminhao*250, "reais")
-              escolhayoun = str(input("Deseja continuar?") )   
-              if escolhayoun <= "Sim":
+               diacomcaminhao = int(input("Quantos dias você quer ficar com a caminhão?"))
+               valortotal = print ("O valor total será de:", diacomcaminhao*250, "reais")
+               escolhayoun = str(input("Deseja continuar?") )   
+               if escolhayoun[0].lower() == 's':
                 print("Opções de pagamento:")
                 print("1-Á vista 2-parcelado")
-              tipopaga = int(input("Qual o método de pagamento?"))
-              if tipopaga <= 1:            
-                print ("Você terá que devolver o veículo daqui a: ", diacomcaminhao, "dias")
-                print("A Locadora Henrique agradece a preferencia!")
-              elif tipopaga <= 2:
+                tipopaga = int(input("Qual o método de pagamento?"))
+                if tipopaga <= 1:            
+                 print ("Você terá que devolver o veículo daqui a: ", diacomcaminhao, "dias")
+                 print("A Locadora Henrique agradece a preferencia!")
+               else: 
+                continue
                 print("Opções de parcelamento:")
                 print("1- 2x 2- 4x")
-              parcela = int(input("Quantas vezes você quer parcerlar?"))
-              if parcela <= 1:
-                print("O valor do mensal a pagar será de :", valortotal/parcela)
-                print ("Você terá que devolver o veículo daqui a: ", diacomcaminhao, "dias")
-                print("A Locadora Henrique agradece a preferencia!")
-              elif parcela <= 2:
-                print("O valor do mensal a pagar será de :", valortotal/parcela)
-                print ("Você terá que devolver o veículo daqui a: ", diacomcaminhao, "dias")
-                print("A Locadora Henrique agradece a preferencia!")
+                parcela = int(input("Quantas vezes você quer parcerlar?"))
+                if parcela <= 1:
+                    print("O valor do mensal a pagar será de :", valortotal/parcela)
+                    print ("Você terá que devolver o veículo daqui a: ", diacomcaminhao, "dias")
+                    print("A Locadora Henrique agradece a preferencia!")
+                elif parcela <= 2:
+                    print("O valor do mensal a pagar será de :", valortotal/parcela)
+                    print ("Você terá que devolver o veículo daqui a: ", diacomcaminhao, "dias")
+                    print("A Locadora Henrique agradece a preferencia!")
             #2020    
             case 2:
-              diacomcaminhao = int(input("Quantos dias você quer ficar com o caminhão?"))
-              valortotal = print ("O valor total será de:", diacomcaminhao*320, "reais")
-              escolhayoun = str(input("Deseja continuar?") )   
-              if escolhayoun <= "Sim":
+               diacomcaminhao = int(input("Quantos dias você quer ficar com a caminhão?"))
+               valortotal = print ("O valor total será de:", diacomcaminhao*320, "reais")
+               escolhayoun = str(input("Deseja continuar?") )   
+               if escolhayoun[0].lower() == 's':
                 print("Opções de pagamento:")
                 print("1-Á vista 2-parcelado")
-              tipopaga = int(input("Qual o método de pagamento?"))
-              if tipopaga <= 1:            
-                print ("Você terá que devolver o veículo daqui a: ", diacomcaminhao, "dias")
-                print("A Locadora Henrique agradece a preferencia!")
-              elif tipopaga <= 2:
+                tipopaga = int(input("Qual o método de pagamento?"))
+                if tipopaga <= 1:            
+                 print ("Você terá que devolver o veículo daqui a: ", diacomcaminhao, "dias")
+                 print("A Locadora Henrique agradece a preferencia!")
+               else: 
+                continue
                 print("Opções de parcelamento:")
                 print("1- 2x 2- 4x")
-              parcela = int(input("Quantas vezes você quer parcerlar?"))
-              if parcela <= 1:
-                print("O valor do mensal a pagar será de :", valortotal/parcela)
-                print ("Você terá que devolver o veículo daqui a: ", diacomcaminhao, "dias")
-                print("A Locadora Henrique agradece a preferencia!")
-              elif parcela <= 2:
-                print("O valor do mensal a pagar será de :", valortotal/parcela)
-                print ("Você terá que devolver o veículo daqui a: ", diacomcaminhao, "dias")
-                print("A Locadora Henrique agradece a preferencia!")
+                parcela = int(input("Quantas vezes você quer parcerlar?"))
+                if parcela <= 1:
+                    print("O valor do mensal a pagar será de :", valortotal/parcela)
+                    print ("Você terá que devolver o veículo daqui a: ", diacomcaminhao, "dias")
+                    print("A Locadora Henrique agradece a preferencia!")
+                elif parcela <= 2:
+                    print("O valor do mensal a pagar será de :", valortotal/parcela)
+                    print ("Você terá que devolver o veículo daqui a: ", diacomcaminhao, "dias")
+                    print("A Locadora Henrique agradece a preferencia!")
+            #2020    
             #2023
             case 3:
-              diacomcaminhao = int(input("Quantos dias você quer ficar com o caminhão?"))
-              valortotal = print ("O valor total será de:", diacomcaminhao*400, "reais")
-              escolhayoun = str(input("Deseja continuar?") )   
-              if escolhayoun <= "Sim":
+               diacomcaminhao = int(input("Quantos dias você quer ficar com a caminhão?"))
+               valortotal = print ("O valor total será de:", diacomcaminhao*400, "reais")
+               escolhayoun = str(input("Deseja continuar?") )   
+               if escolhayoun[0].lower() == 's':
                 print("Opções de pagamento:")
                 print("1-Á vista 2-parcelado")
-              tipopaga = int(input("Qual o método de pagamento?"))
-              if tipopaga <= 1:            
-                print ("Você terá que devolver o veículo daqui a: ", diacomcaminhao, "dias")
-                print("A Locadora Henrique agradece a preferencia!")
-              elif tipopaga <= 2:
+                tipopaga = int(input("Qual o método de pagamento?"))
+                if tipopaga <= 1:            
+                 print ("Você terá que devolver o veículo daqui a: ", diacomcaminhao, "dias")
+                 print("A Locadora Henrique agradece a preferencia!")
+               else: 
+                continue
                 print("Opções de parcelamento:")
                 print("1- 2x 2- 4x")
-              parcela = int(input("Quantas vezes você quer parcerlar?"))
-              if parcela <= 1:
-                print("O valor do mensal a pagar será de :", valortotal/parcela)
-                print ("Você terá que devolver o veículo daqui a: ", diacomcaminhao, "dias")
-                print("A Locadora Henrique agradece a preferencia!")
-              elif parcela <= 2:
-                print("O valor do mensal a pagar será de :", valortotal/parcela)
-                print ("Você terá que devolver o veículo daqui a: ", diacomcaminhao, "dias")
-                print("A Locadora Henrique agradece a preferencia!")    
+                parcela = int(input("Quantas vezes você quer parcerlar?"))
+                if parcela <= 1:
+                    print("O valor do mensal a pagar será de :", valortotal/parcela)
+                    print ("Você terá que devolver o veículo daqui a: ", diacomcaminhao, "dias")
+                    print("A Locadora Henrique agradece a preferencia!")
+                elif parcela <= 2:
+                    print("O valor do mensal a pagar será de :", valortotal/parcela)
+                    print ("Você terá que devolver o veículo daqui a: ", diacomcaminhao, "dias")
+                    print("A Locadora Henrique agradece a preferencia!")
+            #2020    
         #CAMINHAO SEMI-PESADO        
         case 2:
           print("Ano de fabricação do veículo: ")
@@ -676,76 +684,79 @@ while True:
           match anocaminhao:
             #2015
             case 1:
-              diacomcaminhao = int(input("Quantos dias você quer ficar com o caminhão?"))
-              valortotal = print ("O valor total será de:", diacomcaminhao*300, "reais")
-              escolhayoun = str(input("Deseja continuar?") )   
-              if escolhayoun <= "Sim":
+               diacomcaminhao = int(input("Quantos dias você quer ficar com a caminhão?"))
+               valortotal = print ("O valor total será de:", diacomcaminhao*300, "reais")
+               escolhayoun = str(input("Deseja continuar?") )   
+               if escolhayoun[0].lower() == 's':
                 print("Opções de pagamento:")
                 print("1-Á vista 2-parcelado")
-              tipopaga = int(input("Qual o método de pagamento?"))
-              if tipopaga <= 1:            
-                print ("Você terá que devolver o veículo daqui a: ", diacomcaminhao, "dias")
-                print("A Locadora Henrique agradece a preferencia!")
-              elif tipopaga <= 2:
+                tipopaga = int(input("Qual o método de pagamento?"))
+                if tipopaga <= 1:            
+                 print ("Você terá que devolver o veículo daqui a: ", diacomcaminhao, "dias")
+                 print("A Locadora Henrique agradece a preferencia!")
+               else: 
+                continue
                 print("Opções de parcelamento:")
                 print("1- 2x 2- 4x")
-              parcela = int(input("Quantas vezes você quer parcerlar?"))
-              if parcela <= 1:
-                print("O valor do mensal a pagar será de :", valortotal/parcela)
-                print ("Você terá que devolver o veículo daqui a: ", diacomcaminhao, "dias")
-                print("A Locadora Henrique agradece a preferencia!")
-              elif parcela <= 2:
-                print("O valor do mensal a pagar será de :", valortotal/parcela)
-                print ("Você terá que devolver o veículo daqui a: ", diacomcaminhao, "dias")
-                print("A Locadora Henrique agradece a preferencia!")
+                parcela = int(input("Quantas vezes você quer parcerlar?"))
+                if parcela <= 1:
+                    print("O valor do mensal a pagar será de :", valortotal/parcela)
+                    print ("Você terá que devolver o veículo daqui a: ", diacomcaminhao, "dias")
+                    print("A Locadora Henrique agradece a preferencia!")
+                elif parcela <= 2:
+                    print("O valor do mensal a pagar será de :", valortotal/parcela)
+                    print ("Você terá que devolver o veículo daqui a: ", diacomcaminhao, "dias")
+                    print("A Locadora Henrique agradece a preferencia!")
             #2020    
             case 2:
-              diacomcaminhao = int(input("Quantos dias você quer ficar com o caminhão?"))
-              valortotal = print ("O valor total será de:", diacomcaminhao*400, "reais")
-              escolhayoun = str(input("Deseja continuar?") )   
-              if escolhayoun <= "Sim":
+               diacomcaminhao = int(input("Quantos dias você quer ficar com a caminhão?"))
+               valortotal = print ("O valor total será de:", diacomcaminhao*400, "reais")
+               escolhayoun = str(input("Deseja continuar?") )   
+               if escolhayoun[0].lower() == 's':
                 print("Opções de pagamento:")
                 print("1-Á vista 2-parcelado")
-              tipopaga = int(input("Qual o método de pagamento?"))
-              if tipopaga <= 1:            
-                print ("Você terá que devolver o veículo daqui a: ", diacomcaminhao, "dias")
-                print("A Locadora Henrique agradece a preferencia!")
-              elif tipopaga <= 2:
+                tipopaga = int(input("Qual o método de pagamento?"))
+                if tipopaga <= 1:            
+                 print ("Você terá que devolver o veículo daqui a: ", diacomcaminhao, "dias")
+                 print("A Locadora Henrique agradece a preferencia!")
+               else: 
+                continue
                 print("Opções de parcelamento:")
                 print("1- 2x 2- 4x")
-              parcela = int(input("Quantas vezes você quer parcerlar?"))
-              if parcela <= 1:
-                print("O valor do mensal a pagar será de :", valortotal/parcela)
-                print ("Você terá que devolver o veículo daqui a: ", diacomcaminhao, "dias")
-                print("A Locadora Henrique agradece a preferencia!")
-              elif parcela <= 2:
-                print("O valor do mensal a pagar será de :", valortotal/parcela)
-                print ("Você terá que devolver o veículo daqui a: ", diacomcaminhao, "dias")
-                print("A Locadora Henrique agradece a preferencia!")
+                parcela = int(input("Quantas vezes você quer parcerlar?"))
+                if parcela <= 1:
+                    print("O valor do mensal a pagar será de :", valortotal/parcela)
+                    print ("Você terá que devolver o veículo daqui a: ", diacomcaminhao, "dias")
+                    print("A Locadora Henrique agradece a preferencia!")
+                elif parcela <= 2:
+                    print("O valor do mensal a pagar será de :", valortotal/parcela)
+                    print ("Você terá que devolver o veículo daqui a: ", diacomcaminhao, "dias")
+                    print("A Locadora Henrique agradece a preferencia!")
             #2023
             case 3:
-              diacomcaminhao = int(input("Quantos dias você quer ficar com o caminhão?"))
-              valortotal = print ("O valor total será de:", diacomcaminhao*500, "reais")
-              escolhayoun = str(input("Deseja continuar?") )   
-              if escolhayoun <= "Sim":
+               diacomcaminhao = int(input("Quantos dias você quer ficar com a caminhão?"))
+               valortotal = print ("O valor total será de:", diacomcaminhao*500, "reais")
+               escolhayoun = str(input("Deseja continuar?") )   
+               if escolhayoun[0].lower() == 's':
                 print("Opções de pagamento:")
                 print("1-Á vista 2-parcelado")
-              tipopaga = int(input("Qual o método de pagamento?"))
-              if tipopaga <= 1:            
-                print ("Você terá que devolver o veículo daqui a: ", diacomcaminhao, "dias")
-                print("A Locadora Henrique agradece a preferencia!")
-              elif tipopaga <= 2:
+                tipopaga = int(input("Qual o método de pagamento?"))
+                if tipopaga <= 1:            
+                 print ("Você terá que devolver o veículo daqui a: ", diacomcaminhao, "dias")
+                 print("A Locadora Henrique agradece a preferencia!")
+               else: 
+                continue
                 print("Opções de parcelamento:")
                 print("1- 2x 2- 4x")
-              parcela = int(input("Quantas vezes você quer parcerlar?"))
-              if parcela <= 1:
-                print("O valor do mensal a pagar será de :", valortotal/parcela)
-                print ("Você terá que devolver o veículo daqui a: ", diacomcaminhao, "dias")
-                print("A Locadora Henrique agradece a preferencia!")
-              elif parcela <= 2:
-                print("O valor do mensal a pagar será de :", valortotal/parcela)
-                print ("Você terá que devolver o veículo daqui a: ", diacomcaminhao, "dias")
-                print("A Locadora Henrique agradece a preferencia!")    
+                parcela = int(input("Quantas vezes você quer parcerlar?"))
+                if parcela <= 1:
+                    print("O valor do mensal a pagar será de :", valortotal/parcela)
+                    print ("Você terá que devolver o veículo daqui a: ", diacomcaminhao, "dias")
+                    print("A Locadora Henrique agradece a preferencia!")
+                elif parcela <= 2:
+                    print("O valor do mensal a pagar será de :", valortotal/parcela)
+                    print ("Você terá que devolver o veículo daqui a: ", diacomcaminhao, "dias")
+                    print("A Locadora Henrique agradece a preferencia!")  
         case 3:
           print("Ano de fabricação do veículo: ")
           print("1-2015 2- 2020 3- 2023")
@@ -753,74 +764,78 @@ while True:
           match anocaminhao:
             #2015
             case 1:
-              diacomcaminhao = int(input("Quantos dias você quer ficar com o caminhão?"))
-              valortotal = print ("O valor total será de:", diacomcaminhao*550, "reais")
-              escolhayoun = str(input("Deseja continuar?") )   
-              if escolhayoun <= "Sim":
+               diacomcaminhao = int(input("Quantos dias você quer ficar com a caminhão?"))
+               valortotal = print ("O valor total será de:", diacomcaminhao*550, "reais")
+               escolhayoun = str(input("Deseja continuar?") )   
+               if escolhayoun[0].lower() == 's':
                 print("Opções de pagamento:")
                 print("1-Á vista 2-parcelado")
-              tipopaga = int(input("Qual o método de pagamento?"))
-              if tipopaga <= 1:            
-                print ("Você terá que devolver o veículo daqui a: ", diacomcaminhao, "dias")
-                print("A Locadora Henrique agradece a preferencia!")
-              elif tipopaga <= 2:
+                tipopaga = int(input("Qual o método de pagamento?"))
+                if tipopaga <= 1:            
+                 print ("Você terá que devolver o veículo daqui a: ", diacomcaminhao, "dias")
+                 print("A Locadora Henrique agradece a preferencia!")
+               else: 
+                continue
                 print("Opções de parcelamento:")
                 print("1- 2x 2- 4x")
-              parcela = int(input("Quantas vezes você quer parcerlar?"))
-              if parcela <= 1:
-                print("O valor do mensal a pagar será de :", valortotal/parcela)
-                print ("Você terá que devolver o veículo daqui a: ", diacomcaminhao, "dias")
-                print("A Locadora Henrique agradece a preferencia!")
-              elif parcela <= 2:
-                print("O valor do mensal a pagar será de :", valortotal/parcela)
-                print ("Você terá que devolver o veículo daqui a: ", diacomcaminhao, "dias")
-                print("A Locadora Henrique agradece a preferencia!")
+                parcela = int(input("Quantas vezes você quer parcerlar?"))
+                if parcela <= 1:
+                    print("O valor do mensal a pagar será de :", valortotal/parcela)
+                    print ("Você terá que devolver o veículo daqui a: ", diacomcaminhao, "dias")
+                    print("A Locadora Henrique agradece a preferencia!")
+                elif parcela <= 2:
+                    print("O valor do mensal a pagar será de :", valortotal/parcela)
+                    print ("Você terá que devolver o veículo daqui a: ", diacomcaminhao, "dias")
+                    print("A Locadora Henrique agradece a preferencia!")
             #2020    
             case 2:
-              diacomcaminhao = int(input("Quantos dias você quer ficar com o caminhão?"))
-              valortotal = print ("O valor total será de:", diacomcaminhao*670, "reais")
-              escolhayoun = str(input("Deseja continuar?") )   
-              if escolhayoun <= "Sim":
+               diacomcaminhao = int(input("Quantos dias você quer ficar com a caminhão?"))
+               valortotal = print ("O valor total será de:", diacomcaminhao*670, "reais")
+               escolhayoun = str(input("Deseja continuar?") )   
+               if escolhayoun[0].lower() == 's':
                 print("Opções de pagamento:")
                 print("1-Á vista 2-parcelado")
-              tipopaga = int(input("Qual o método de pagamento?"))
-              if tipopaga <= 1:            
-                print ("Você terá que devolver o veículo daqui a: ", diacomcaminhao, "dias")
-                print("A Locadora Henrique agradece a preferencia!")
-              elif tipopaga <= 2:
+                tipopaga = int(input("Qual o método de pagamento?"))
+                if tipopaga <= 1:            
+                 print ("Você terá que devolver o veículo daqui a: ", diacomcaminhao, "dias")
+                 print("A Locadora Henrique agradece a preferencia!")
+               else: 
+                continue
                 print("Opções de parcelamento:")
                 print("1- 2x 2- 4x")
-              parcela = int(input("Quantas vezes você quer parcerlar?"))
-              if parcela <= 1:
-                print("O valor do mensal a pagar será de :", valortotal/parcela)
-                print ("Você terá que devolver o veículo daqui a: ", diacomcaminhao, "dias")
-                print("A Locadora Henrique agradece a preferencia!")
-              elif parcela <= 2:
-                print("O valor do mensal a pagar será de :", valortotal/parcela)
-                print ("Você terá que devolver o veículo daqui a: ", diacomcaminhao, "dias")
-                print("A Locadora Henrique agradece a preferencia!")
+                parcela = int(input("Quantas vezes você quer parcerlar?"))
+                if parcela <= 1:
+                    print("O valor do mensal a pagar será de :", valortotal/parcela)
+                    print ("Você terá que devolver o veículo daqui a: ", diacomcaminhao, "dias")
+                    print("A Locadora Henrique agradece a preferencia!")
+                elif parcela <= 2:
+                    print("O valor do mensal a pagar será de :", valortotal/parcela)
+                    print ("Você terá que devolver o veículo daqui a: ", diacomcaminhao, "dias")
+                    print("A Locadora Henrique agradece a preferencia!")
             #2023
             case 3:
-              diacomcaminhao = int(input("Quantos dias você quer ficar com o caminhão?"))
-              valortotal = print ("O valor total será de:", diacomcaminhao*800, "reais")
-              escolhayoun = str(input("Deseja continuar?") )   
-              if escolhayoun <= "Sim":
+               diacomcaminhao = int(input("Quantos dias você quer ficar com a caminhão?"))
+               valortotal = print ("O valor total será de:", diacomcaminhao*800, "reais")
+               escolhayoun = str(input("Deseja continuar?") )   
+               if escolhayoun[0].lower() == 's':
                 print("Opções de pagamento:")
                 print("1-Á vista 2-parcelado")
-              tipopaga = int(input("Qual o método de pagamento?"))
-              if tipopaga <= 1:            
-                print ("Você terá que devolver o veículo daqui a: ", diacomcaminhao, "dias")
-                print("A Locadora Henrique agradece a preferencia!")
-              elif tipopaga <= 2:
+                tipopaga = int(input("Qual o método de pagamento?"))
+                if tipopaga <= 1:            
+                 print ("Você terá que devolver o veículo daqui a: ", diacomcaminhao, "dias")
+                 print("A Locadora Henrique agradece a preferencia!")
+               else: 
+                continue
                 print("Opções de parcelamento:")
                 print("1- 2x 2- 4x")
-              parcela = int(input("Quantas vezes você quer parcerlar?"))
-              if parcela <= 1:
-                print("O valor do mensal a pagar será de :", valortotal/parcela)
-                print ("Você terá que devolver o veículo daqui a: ", diacomcaminhao, "dias")
-                print("A Locadora Henrique agradece a preferencia!")
-              elif parcela <= 2:
-                print("O valor do mensal a pagar será de :", valortotal/parcela)
-                print ("Você terá que devolver o veículo daqui a: ", diacomcaminhao, "dias")
-                print("A Locadora Henrique agradece a preferencia!")    
+                parcela = int(input("Quantas vezes você quer parcerlar?"))
+                if parcela <= 1:
+                    print("O valor do mensal a pagar será de :", valortotal/parcela)
+                    print ("Você terá que devolver o veículo daqui a: ", diacomcaminhao, "dias")
+                    print("A Locadora Henrique agradece a preferencia!")
+                elif parcela <= 2:
+                    print("O valor do mensal a pagar será de :", valortotal/parcela)
+                    print ("Você terá que devolver o veículo daqui a: ", diacomcaminhao, "dias")
+                    print("A Locadora Henrique agradece a preferencia!")
                 break
+
