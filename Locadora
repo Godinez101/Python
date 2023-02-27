@@ -36,11 +36,11 @@ while True:
                  print("1- 2x 2- 4x")
                  parcela = int(input("Quantas vezes você quer parcerlar?"))
                  if parcela == 1:
-                    print("O valor do mensal a pagar será de :", valortotal/2)
+                    print("O valor mensal a pagar será de :", valortotal/2)
                     print ("Você terá que devolver o veículo daqui a: ", diacomcarro, "dias")
                     print("A Locadora Henrique agradece a preferencia!")
                  elif parcela == 2:
-                    print("O valor do mensal a pagar será de :", valortotal/4)
+                    print("O valor mensal a pagar será de :", valortotal/4)
                     print ("Você terá que devolver o veículo daqui a: ", diacomcarro, "dias")
                     print("A Locadora Henrique agradece a preferencia!")
                     break
@@ -62,11 +62,11 @@ while True:
                  print("1- 2x 2- 4x")
                  parcela = int(input("Quantas vezes você quer parcerlar?"))
                  if parcela == 1:
-                    print("O valor do mensal a pagar será de :", valortotal/2)
+                    print("O valor mensal a pagar será de :", valortotal/2)
                     print ("Você terá que devolver o veículo daqui a: ", diacomcarro, "dias")
                     print("A Locadora Henrique agradece a preferencia!")
                  elif parcela == 2:
-                    print("O valor do mensal a pagar será de :", valortotal/4)
+                    print("O valor mensal a pagar será de :", valortotal/4)
                     print ("Você terá que devolver o veículo daqui a: ", diacomcarro, "dias")
                     print("A Locadora Henrique agradece a preferencia!")
                     break
@@ -88,11 +88,11 @@ while True:
                  print("1- 2x 2- 4x")
                  parcela = int(input("Quantas vezes você quer parcerlar?"))
                  if parcela == 1:
-                    print("O valor do mensal a pagar será de :", valortotal/2)
+                    print("O valor mensal a pagar será de :", valortotal/2)
                     print ("Você terá que devolver o veículo daqui a: ", diacomcarro, "dias")
                     print("A Locadora Henrique agradece a preferencia!")
                  elif parcela == 2:
-                    print("O valor do mensal a pagar será de :", valortotal/4)
+                    print("O valor mensal a pagar será de :", valortotal/4)
                     print ("Você terá que devolver o veículo daqui a: ", diacomcarro, "dias")
                     print("A Locadora Henrique agradece a preferencia!")
                     break
@@ -120,11 +120,11 @@ while True:
                  print("1- 2x 2- 4x")
                  parcela = int(input("Quantas vezes você quer parcerlar?"))
                  if parcela == 1:
-                    print("O valor do mensal a pagar será de :", valortotal/2)
+                    print("O valor mensal a pagar será de :", valortotal/2)
                     print ("Você terá que devolver o veículo daqui a: ", diacomcarro, "dias")
                     print("A Locadora Henrique agradece a preferencia!")
                  elif parcela == 2:
-                    print("O valor do mensal a pagar será de :", valortotal/4)
+                    print("O valor mensal a pagar será de :", valortotal/4)
                     print ("Você terá que devolver o veículo daqui a: ", diacomcarro, "dias")
                     print("A Locadora Henrique agradece a preferencia!")
                     break
@@ -146,11 +146,11 @@ while True:
                  print("1- 2x 2- 4x")
                  parcela = int(input("Quantas vezes você quer parcerlar?"))
                  if parcela == 1:
-                    print("O valor do mensal a pagar será de :", valortotal/2)
+                    print("O valor mensal a pagar será de :", valortotal/2)
                     print ("Você terá que devolver o veículo daqui a: ", diacomcarro, "dias")
                     print("A Locadora Henrique agradece a preferencia!")
                  elif parcela == 2:
-                    print("O valor do mensal a pagar será de :", valortotal/4)
+                    print("O valor mensal a pagar será de :", valortotal/4)
                     print ("Você terá que devolver o veículo daqui a: ", diacomcarro, "dias")
                     print("A Locadora Henrique agradece a preferencia!")
                     break
@@ -172,11 +172,11 @@ while True:
                  print("1- 2x 2- 4x")
                  parcela = int(input("Quantas vezes você quer parcerlar?"))
                  if parcela == 1:
-                    print("O valor do mensal a pagar será de :", valortotal/2)
+                    print("O valor mensal a pagar será de :", valortotal/2)
                     print ("Você terá que devolver o veículo daqui a: ", diacomcarro, "dias")
                     print("A Locadora Henrique agradece a preferencia!")
                  elif parcela == 2:
-                    print("O valor do mensal a pagar será de :", valortotal/4)
+                    print("O valor mensal a pagar será de :", valortotal/4)
                     print ("Você terá que devolver o veículo daqui a: ", diacomcarro, "dias")
                     print("A Locadora Henrique agradece a preferencia!")
                     break
@@ -204,11 +204,11 @@ while True:
                  print("1- 2x 2- 4x")
                  parcela = int(input("Quantas vezes você quer parcerlar?"))
                  if parcela == 1:
-                    print("O valor do mensal a pagar será de :", valortotal/2)
+                    print("O valor mensal a pagar será de :", valortotal/2)
                     print ("Você terá que devolver o veículo daqui a: ", diacomcarro, "dias")
                     print("A Locadora Henrique agradece a preferencia!")
                  elif parcela == 2:
-                    print("O valor do mensal a pagar será de :", valortotal/4)
+                    print("O valor mensal a pagar será de :", valortotal/4)
                     print ("Você terá que devolver o veículo daqui a: ", diacomcarro, "dias")
                     print("A Locadora Henrique agradece a preferencia!")
                     break
@@ -230,11 +230,11 @@ while True:
                  print("1- 2x 2- 4x")
                  parcela = int(input("Quantas vezes você quer parcerlar?"))
                  if parcela == 1:
-                    print("O valor do mensal a pagar será de :", valortotal/2)
+                    print("O valor mensal a pagar será de :", valortotal/2)
                     print ("Você terá que devolver o veículo daqui a: ", diacomcarro, "dias")
                     print("A Locadora Henrique agradece a preferencia!")
                  elif parcela == 2:
-                    print("O valor do mensal a pagar será de :", valortotal/4)
+                    print("O valor mensal a pagar será de :", valortotal/4)
                     print ("Você terá que devolver o veículo daqui a: ", diacomcarro, "dias")
                     print("A Locadora Henrique agradece a preferencia!")
                     break
@@ -256,11 +256,11 @@ while True:
                  print("1- 2x 2- 4x")
                  parcela = int(input("Quantas vezes você quer parcerlar?"))
                  if parcela == 1:
-                    print("O valor do mensal a pagar será de :", valortotal/2)
+                    print("O valor mensal a pagar será de :", valortotal/2)
                     print ("Você terá que devolver o veículo daqui a: ", diacomcarro, "dias")
                     print("A Locadora Henrique agradece a preferencia!")
                  elif parcela == 2:
-                    print("O valor do mensal a pagar será de :", valortotal/4)
+                    print("O valor mensal a pagar será de :", valortotal/4)
                     print ("Você terá que devolver o veículo daqui a: ", diacomcarro, "dias")
                     print("A Locadora Henrique agradece a preferencia!")
                     break
@@ -288,11 +288,11 @@ while True:
                  print("1- 2x 2- 4x")
                  parcela = int(input("Quantas vezes você quer parcerlar?"))
                  if parcela == 1:
-                    print("O valor do mensal a pagar será de :", valortotal/2)
+                    print("O valor mensal a pagar será de :", valortotal/2)
                     print ("Você terá que devolver o veículo daqui a: ", diacomcarro, "dias")
                     print("A Locadora Henrique agradece a preferencia!")
                  elif parcela == 2:
-                    print("O valor do mensal a pagar será de :", valortotal/4)
+                    print("O valor mensal a pagar será de :", valortotal/4)
                     print ("Você terá que devolver o veículo daqui a: ", diacomcarro, "dias")
                     print("A Locadora Henrique agradece a preferencia!")
                     break
@@ -314,11 +314,11 @@ while True:
                  print("1- 2x 2- 4x")
                  parcela = int(input("Quantas vezes você quer parcerlar?"))
                  if parcela == 1:
-                    print("O valor do mensal a pagar será de :", valortotal/2)
+                    print("O valor mensal a pagar será de :", valortotal/2)
                     print ("Você terá que devolver o veículo daqui a: ", diacomcarro, "dias")
                     print("A Locadora Henrique agradece a preferencia!")
                  elif parcela == 2:
-                    print("O valor do mensal a pagar será de :", valortotal/4)
+                    print("O valor mensal a pagar será de :", valortotal/4)
                     print ("Você terá que devolver o veículo daqui a: ", diacomcarro, "dias")
                     print("A Locadora Henrique agradece a preferencia!")
                     break
@@ -340,11 +340,11 @@ while True:
                  print("1- 2x 2- 4x")
                  parcela = int(input("Quantas vezes você quer parcerlar?"))
                  if parcela == 1:
-                    print("O valor do mensal a pagar será de :", valortotal/2)
+                    print("O valor mensal a pagar será de :", valortotal/2)
                     print ("Você terá que devolver o veículo daqui a: ", diacomcarro, "dias")
                     print("A Locadora Henrique agradece a preferencia!")
                  elif parcela == 2:
-                    print("O valor do mensal a pagar será de :", valortotal/4)
+                    print("O valor mensal a pagar será de :", valortotal/4)
                     print ("Você terá que devolver o veículo daqui a: ", diacomcarro, "dias")
                     print("A Locadora Henrique agradece a preferencia!")
                     break
@@ -379,12 +379,12 @@ while True:
                  print("1- 2x 2- 4x")
                  parcela = int(input("Quantas vezes você quer parcerlar?"))
                  if parcela == 1:
-                    print("O valor do mensal a pagar será de :", valortotal/2)
-                    print ("Você terá que devolver o veículo daqui a: ", diacommoto, "dias")
+                    print("O valor mensal a pagar será de :", valortotal/2)
+                    print ("Você terá que devolver o veículo daqui a: ", diacomcarro, "dias")
                     print("A Locadora Henrique agradece a preferencia!")
                  elif parcela == 2:
-                    print("O valor do mensal a pagar será de :", valortotal/4)
-                    print ("Você terá que devolver o veículo daqui a: ", diacommoto, "dias")
+                    print("O valor mensal a pagar será de :", valortotal/4)
+                    print ("Você terá que devolver o veículo daqui a: ", diacomcarro, "dias")
                     print("A Locadora Henrique agradece a preferencia!")
                     break
             #2020        
@@ -405,12 +405,12 @@ while True:
                  print("1- 2x 2- 4x")
                  parcela = int(input("Quantas vezes você quer parcerlar?"))
                  if parcela == 1:
-                    print("O valor do mensal a pagar será de :", valortotal/2)
-                    print ("Você terá que devolver o veículo daqui a: ", diacommoto, "dias")
+                    print("O valor mensal a pagar será de :", valortotal/2)
+                    print ("Você terá que devolver o veículo daqui a: ", diacomcarro, "dias")
                     print("A Locadora Henrique agradece a preferencia!")
                  elif parcela == 2:
-                    print("O valor do mensal a pagar será de :", valortotal/4)
-                    print ("Você terá que devolver o veículo daqui a: ", diacommoto, "dias")
+                    print("O valor mensal a pagar será de :", valortotal/4)
+                    print ("Você terá que devolver o veículo daqui a: ", diacomcarro, "dias")
                     print("A Locadora Henrique agradece a preferencia!")
                     break
             #2023        
@@ -431,12 +431,12 @@ while True:
                  print("1- 2x 2- 4x")
                  parcela = int(input("Quantas vezes você quer parcerlar?"))
                  if parcela == 1:
-                    print("O valor do mensal a pagar será de :", valortotal/2)
-                    print ("Você terá que devolver o veículo daqui a: ", diacommoto, "dias")
+                    print("O valor mensal a pagar será de :", valortotal/2)
+                    print ("Você terá que devolver o veículo daqui a: ", diacomcarro, "dias")
                     print("A Locadora Henrique agradece a preferencia!")
                  elif parcela == 2:
-                    print("O valor do mensal a pagar será de :", valortotal/4)
-                    print ("Você terá que devolver o veículo daqui a: ", diacommoto, "dias")
+                    print("O valor mensal a pagar será de :", valortotal/4)
+                    print ("Você terá que devolver o veículo daqui a: ", diacomcarro, "dias")
                     print("A Locadora Henrique agradece a preferencia!")
                     break
         #MEDIA CILINDRADA
@@ -463,12 +463,12 @@ while True:
                  print("1- 2x 2- 4x")
                  parcela = int(input("Quantas vezes você quer parcerlar?"))
                  if parcela == 1:
-                    print("O valor do mensal a pagar será de :", valortotal/2)
-                    print ("Você terá que devolver o veículo daqui a: ", diacommoto, "dias")
+                    print("O valor mensal a pagar será de :", valortotal/2)
+                    print ("Você terá que devolver o veículo daqui a: ", diacomcarro, "dias")
                     print("A Locadora Henrique agradece a preferencia!")
                  elif parcela == 2:
-                    print("O valor do mensal a pagar será de :", valortotal/4)
-                    print ("Você terá que devolver o veículo daqui a: ", diacommoto, "dias")
+                    print("O valor mensal a pagar será de :", valortotal/4)
+                    print ("Você terá que devolver o veículo daqui a: ", diacomcarro, "dias")
                     print("A Locadora Henrique agradece a preferencia!")
                     break
             #2020        
@@ -489,12 +489,12 @@ while True:
                  print("1- 2x 2- 4x")
                  parcela = int(input("Quantas vezes você quer parcerlar?"))
                  if parcela == 1:
-                    print("O valor do mensal a pagar será de :", valortotal/2)
-                    print ("Você terá que devolver o veículo daqui a: ", diacommoto, "dias")
+                    print("O valor mensal a pagar será de :", valortotal/2)
+                    print ("Você terá que devolver o veículo daqui a: ", diacomcarro, "dias")
                     print("A Locadora Henrique agradece a preferencia!")
                  elif parcela == 2:
-                    print("O valor do mensal a pagar será de :", valortotal/4)
-                    print ("Você terá que devolver o veículo daqui a: ", diacommoto, "dias")
+                    print("O valor mensal a pagar será de :", valortotal/4)
+                    print ("Você terá que devolver o veículo daqui a: ", diacomcarro, "dias")
                     print("A Locadora Henrique agradece a preferencia!")
                     break
             #2023        
@@ -515,12 +515,12 @@ while True:
                  print("1- 2x 2- 4x")
                  parcela = int(input("Quantas vezes você quer parcerlar?"))
                  if parcela == 1:
-                    print("O valor do mensal a pagar será de :", valortotal/2)
-                    print ("Você terá que devolver o veículo daqui a: ", diacommoto, "dias")
+                    print("O valor mensal a pagar será de :", valortotal/2)
+                    print ("Você terá que devolver o veículo daqui a: ", diacomcarro, "dias")
                     print("A Locadora Henrique agradece a preferencia!")
                  elif parcela == 2:
-                    print("O valor do mensal a pagar será de :", valortotal/4)
-                    print ("Você terá que devolver o veículo daqui a: ", diacommoto, "dias")
+                    print("O valor mensal a pagar será de :", valortotal/4)
+                    print ("Você terá que devolver o veículo daqui a: ", diacomcarro, "dias")
                     print("A Locadora Henrique agradece a preferencia!")
                     break
         #ALTA CILINDRADA            
@@ -547,12 +547,12 @@ while True:
                  print("1- 2x 2- 4x")
                  parcela = int(input("Quantas vezes você quer parcerlar?"))
                  if parcela == 1:
-                    print("O valor do mensal a pagar será de :", valortotal/2)
-                    print ("Você terá que devolver o veículo daqui a: ", diacommoto, "dias")
+                    print("O valor mensal a pagar será de :", valortotal/2)
+                    print ("Você terá que devolver o veículo daqui a: ", diacomcarro, "dias")
                     print("A Locadora Henrique agradece a preferencia!")
                  elif parcela == 2:
-                    print("O valor do mensal a pagar será de :", valortotal/4)
-                    print ("Você terá que devolver o veículo daqui a: ", diacommoto, "dias")
+                    print("O valor mensal a pagar será de :", valortotal/4)
+                    print ("Você terá que devolver o veículo daqui a: ", diacomcarro, "dias")
                     print("A Locadora Henrique agradece a preferencia!")
                     break
             #2020        
@@ -573,12 +573,12 @@ while True:
                  print("1- 2x 2- 4x")
                  parcela = int(input("Quantas vezes você quer parcerlar?"))
                  if parcela == 1:
-                    print("O valor do mensal a pagar será de :", valortotal/2)
-                    print ("Você terá que devolver o veículo daqui a: ", diacommoto, "dias")
+                    print("O valor mensal a pagar será de :", valortotal/2)
+                    print ("Você terá que devolver o veículo daqui a: ", diacomcarro, "dias")
                     print("A Locadora Henrique agradece a preferencia!")
                  elif parcela == 2:
-                    print("O valor do mensal a pagar será de :", valortotal/4)
-                    print ("Você terá que devolver o veículo daqui a: ", diacommoto, "dias")
+                    print("O valor mensal a pagar será de :", valortotal/4)
+                    print ("Você terá que devolver o veículo daqui a: ", diacomcarro, "dias")
                     print("A Locadora Henrique agradece a preferencia!")
                     break
             #2023        
@@ -599,12 +599,12 @@ while True:
                  print("1- 2x 2- 4x")
                  parcela = int(input("Quantas vezes você quer parcerlar?"))
                  if parcela == 1:
-                    print("O valor do mensal a pagar será de :", valortotal/2)
-                    print ("Você terá que devolver o veículo daqui a: ", diacommoto, "dias")
+                    print("O valor mensal a pagar será de :", valortotal/2)
+                    print ("Você terá que devolver o veículo daqui a: ", diacomcarro, "dias")
                     print("A Locadora Henrique agradece a preferencia!")
                  elif parcela == 2:
-                    print("O valor do mensal a pagar será de :", valortotal/4)
-                    print ("Você terá que devolver o veículo daqui a: ", diacommoto, "dias")
+                    print("O valor mensal a pagar será de :", valortotal/4)
+                    print ("Você terá que devolver o veículo daqui a: ", diacomcarro, "dias")
                     print("A Locadora Henrique agradece a preferencia!")
                     break
     #CAMINHOES                
@@ -637,12 +637,12 @@ while True:
                  print("1- 2x 2- 4x")
                  parcela = int(input("Quantas vezes você quer parcerlar?"))
                  if parcela == 1:
-                    print("O valor do mensal a pagar será de :", valortotal/2)
-                    print ("Você terá que devolver o veículo daqui a: ", diacomcaminhao, "dias")
+                    print("O valor mensal a pagar será de :", valortotal/2)
+                    print ("Você terá que devolver o veículo daqui a: ", diacomcarro, "dias")
                     print("A Locadora Henrique agradece a preferencia!")
                  elif parcela == 2:
-                    print("O valor do mensal a pagar será de :", valortotal/4)
-                    print ("Você terá que devolver o veículo daqui a: ", diacomcaminhao, "dias")
+                    print("O valor mensal a pagar será de :", valortotal/4)
+                    print ("Você terá que devolver o veículo daqui a: ", diacomcarro, "dias")
                     print("A Locadora Henrique agradece a preferencia!")
                     break
             #2020    
@@ -663,12 +663,12 @@ while True:
                  print("1- 2x 2- 4x")
                  parcela = int(input("Quantas vezes você quer parcerlar?"))
                  if parcela == 1:
-                    print("O valor do mensal a pagar será de :", valortotal/2)
-                    print ("Você terá que devolver o veículo daqui a: ", diacomcaminhao, "dias")
+                    print("O valor mensal a pagar será de :", valortotal/2)
+                    print ("Você terá que devolver o veículo daqui a: ", diacomcarro, "dias")
                     print("A Locadora Henrique agradece a preferencia!")
                  elif parcela == 2:
-                    print("O valor do mensal a pagar será de :", valortotal/4)
-                    print ("Você terá que devolver o veículo daqui a: ", diacomcaminhao, "dias")
+                    print("O valor mensal a pagar será de :", valortotal/4)
+                    print ("Você terá que devolver o veículo daqui a: ", diacomcarro, "dias")
                     print("A Locadora Henrique agradece a preferencia!")
                     break
             #2023
@@ -689,12 +689,12 @@ while True:
                  print("1- 2x 2- 4x")
                  parcela = int(input("Quantas vezes você quer parcerlar?"))
                  if parcela == 1:
-                    print("O valor do mensal a pagar será de :", valortotal/2)
-                    print ("Você terá que devolver o veículo daqui a: ", diacomcaminhao, "dias")
+                    print("O valor mensal a pagar será de :", valortotal/2)
+                    print ("Você terá que devolver o veículo daqui a: ", diacomcarro, "dias")
                     print("A Locadora Henrique agradece a preferencia!")
                  elif parcela == 2:
-                    print("O valor do mensal a pagar será de :", valortotal/4)
-                    print ("Você terá que devolver o veículo daqui a: ", diacomcaminhao, "dias")
+                    print("O valor mensal a pagar será de :", valortotal/4)
+                    print ("Você terá que devolver o veículo daqui a: ", diacomcarro, "dias")
                     print("A Locadora Henrique agradece a preferencia!")
                     break
             #2020    
@@ -722,12 +722,12 @@ while True:
                  print("1- 2x 2- 4x")
                  parcela = int(input("Quantas vezes você quer parcerlar?"))
                  if parcela == 1:
-                    print("O valor do mensal a pagar será de :", valortotal/2)
-                    print ("Você terá que devolver o veículo daqui a: ", diacomcaminhao, "dias")
+                    print("O valor mensal a pagar será de :", valortotal/2)
+                    print ("Você terá que devolver o veículo daqui a: ", diacomcarro, "dias")
                     print("A Locadora Henrique agradece a preferencia!")
                  elif parcela == 2:
-                    print("O valor do mensal a pagar será de :", valortotal/4)
-                    print ("Você terá que devolver o veículo daqui a: ", diacomcaminhao, "dias")
+                    print("O valor mensal a pagar será de :", valortotal/4)
+                    print ("Você terá que devolver o veículo daqui a: ", diacomcarro, "dias")
                     print("A Locadora Henrique agradece a preferencia!")
                     break
             #2020    
@@ -748,12 +748,12 @@ while True:
                  print("1- 2x 2- 4x")
                  parcela = int(input("Quantas vezes você quer parcerlar?"))
                  if parcela == 1:
-                    print("O valor do mensal a pagar será de :", valortotal/2)
-                    print ("Você terá que devolver o veículo daqui a: ", diacomcaminhao, "dias")
+                    print("O valor mensal a pagar será de :", valortotal/2)
+                    print ("Você terá que devolver o veículo daqui a: ", diacomcarro, "dias")
                     print("A Locadora Henrique agradece a preferencia!")
                  elif parcela == 2:
-                    print("O valor do mensal a pagar será de :", valortotal/4)
-                    print ("Você terá que devolver o veículo daqui a: ", diacomcaminhao, "dias")
+                    print("O valor mensal a pagar será de :", valortotal/4)
+                    print ("Você terá que devolver o veículo daqui a: ", diacomcarro, "dias")
                     print("A Locadora Henrique agradece a preferencia!")
                     break
             #2023
@@ -774,12 +774,12 @@ while True:
                  print("1- 2x 2- 4x")
                  parcela = int(input("Quantas vezes você quer parcerlar?"))
                  if parcela == 1:
-                    print("O valor do mensal a pagar será de :", valortotal/2)
-                    print ("Você terá que devolver o veículo daqui a: ", diacomcaminhao, "dias")
+                    print("O valor mensal a pagar será de :", valortotal/2)
+                    print ("Você terá que devolver o veículo daqui a: ", diacomcarro, "dias")
                     print("A Locadora Henrique agradece a preferencia!")
                  elif parcela == 2:
-                    print("O valor do mensal a pagar será de :", valortotal/4)
-                    print ("Você terá que devolver o veículo daqui a: ", diacomcaminhao, "dias")
+                    print("O valor mensal a pagar será de :", valortotal/4)
+                    print ("Você terá que devolver o veículo daqui a: ", diacomcarro, "dias")
                     print("A Locadora Henrique agradece a preferencia!")
                     break  
        #CAMINHÃO PESADO             
@@ -806,12 +806,12 @@ while True:
                  print("1- 2x 2- 4x")
                  parcela = int(input("Quantas vezes você quer parcerlar?"))
                  if parcela == 1:
-                    print("O valor do mensal a pagar será de :", valortotal/2)
-                    print ("Você terá que devolver o veículo daqui a: ", diacomcaminhao, "dias")
+                    print("O valor mensal a pagar será de :", valortotal/2)
+                    print ("Você terá que devolver o veículo daqui a: ", diacomcarro, "dias")
                     print("A Locadora Henrique agradece a preferencia!")
                  elif parcela == 2:
-                    print("O valor do mensal a pagar será de :", valortotal/4)
-                    print ("Você terá que devolver o veículo daqui a: ", diacomcaminhao, "dias")
+                    print("O valor mensal a pagar será de :", valortotal/4)
+                    print ("Você terá que devolver o veículo daqui a: ", diacomcarro, "dias")
                     print("A Locadora Henrique agradece a preferencia!")
                     break
             #2020    
@@ -832,12 +832,12 @@ while True:
                  print("1- 2x 2- 4x")
                  parcela = int(input("Quantas vezes você quer parcerlar?"))
                  if parcela == 1:
-                    print("O valor do mensal a pagar será de :", valortotal/2)
-                    print ("Você terá que devolver o veículo daqui a: ", diacomcaminhao, "dias")
+                    print("O valor mensal a pagar será de :", valortotal/2)
+                    print ("Você terá que devolver o veículo daqui a: ", diacomcarro, "dias")
                     print("A Locadora Henrique agradece a preferencia!")
                  elif parcela == 2:
-                    print("O valor do mensal a pagar será de :", valortotal/4)
-                    print ("Você terá que devolver o veículo daqui a: ", diacomcaminhao, "dias")
+                    print("O valor mensal a pagar será de :", valortotal/4)
+                    print ("Você terá que devolver o veículo daqui a: ", diacomcarro, "dias")
                     print("A Locadora Henrique agradece a preferencia!")
                     break
             #2023
@@ -858,14 +858,20 @@ while True:
                  print("1- 2x 2- 4x")
                  parcela = int(input("Quantas vezes você quer parcerlar?"))
                  if parcela == 1:
-                    print("O valor do mensal a pagar será de :", valortotal/2)
-                    print ("Você terá que devolver o veículo daqui a: ", diacomcaminhao, "dias")
+                    print("O valor mensal a pagar será de :", valortotal/2)
+                    print ("Você terá que devolver o veículo daqui a: ", diacomcarro, "dias")
                     print("A Locadora Henrique agradece a preferencia!")
                  elif parcela == 2:
-                    print("O valor do mensal a pagar será de :", valortotal/4)
-                    print ("Você terá que devolver o veículo daqui a: ", diacomcaminhao, "dias")
+                    print("O valor mensal a pagar será de :", valortotal/4)
+                    print ("Você terá que devolver o veículo daqui a: ", diacomcarro, "dias")
                     print("A Locadora Henrique agradece a preferencia!")
                 break
+
+
+    
+
+
+
 
 
     
